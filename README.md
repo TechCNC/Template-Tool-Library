@@ -7,8 +7,10 @@ Fusion 360 operation templates and tool libraries for CNC machines.
 ### AP4060
 | Date | File | Description |
 |------|------|-------------|
+| 05/2026 | `Templates_AP4060_05132026.zip` | Operation templates (validated on AP4060, EN/FR/RU descriptions) |
 | 03/2026 | `Template_AP4060_032026.zip` | Operation templates |
 | 12/2025 | `Operation_templates.zip` | Operation templates |
+| — | `AP4060_new.tools` | Fusion 360 tool library |
 
 ### CNC_T800
 | Date | File | Description |
@@ -25,6 +27,7 @@ CNC Machines/
 ├── AP4060/
 │   └── Fusion 360/
 │       ├── Operation Template/
+│       │   ├── 05132026/
 │       │   ├── 03212026/
 │       │   └── 12232025/
 │       └── Tool Library/
@@ -48,3 +51,4 @@ CNC Machines/
 1. Fusion 360 → Manufacture workspace
 2. Manage → Tool Library
 3. Click the import icon → select `.tools` file
+
