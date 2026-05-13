@@ -1,0 +1,4442 @@
+{
+  "data": [
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "M6x1 (Cell 47)",
+      "expressions": {
+        "holder_description": "' BT30-DC8-60L'",
+        "holder_productLink": "'https://www.aliexpress.com/item/1005003340893590.html?spm=a2g0o.order_list.order_list_main.1492.2cfb18023DkEuu'",
+        "tool_bodyLength": "20 mm",
+        "tool_comment": "'M6x1 (Cell 47)'",
+        "tool_description": "'M6x1 (Cell 47)'",
+        "tool_diameter": "5 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "15 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "12",
+        "tool_numberOfFlutes": "3",
+        "tool_numberOfTeeth": "3",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000785295701.html?spm=a2g0o.productlist.main.3.13b67e4dwiixOR&algo_pvid=0d7d3a00-067b-43a4-9f69-b38e0a1c822c&algo_exp_id=0d7d3a00-067b-43a4-9f69-b38e0a1c822c-1&pdp_ext_f=%7B\"order\"%3A\"128\"%2C\"eval\"%3A\"1\"%7D&pdp_npi=4%40dis%21CAD%2121.05%2113.89%21%21%2114.50%219.57%21%402103244617399960934658283eb872%2112000039465674684%21sea%21CA%214461114940%21X&curPageLogUid=8FvfdHIHy4Jz&utparam-url=scene%3Asearch%7Cquery_from%3A'",
+        "tool_shaftDiameter": "5 mm",
+        "tool_shoulderLength": "20 mm",
+        "tool_threadPitch": "1 mm",
+        "tool_vendor": "'BB'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 5,
+        "HAND": true,
+        "LB": 20,
+        "LCF": 15,
+        "NOF": 3,
+        "NT": 3,
+        "OAL": 38,
+        "RE": 0,
+        "SFDM": 5,
+        "TA": 0,
+        "TP": 1,
+        "TPN": 0,
+        "TPX": 1,
+        "assemblyGaugeLength": 82,
+        "shoulder-diameter": 3.267949,
+        "shoulder-length": 20,
+        "thread-profile-angle": 60,
+        "thread-tip-type": "point",
+        "tip-diameter": 5,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "ba1e7a01-8ed9-4903-94f8-86fb8a0332e3",
+      "holder": {
+        "description": " BT30-DC8-60L",
+        "gaugeLength": 62,
+        "guid": "4cae4b55-78a1-4be4-87da-cefeeb45a537",
+        "product-id": "",
+        "product-link": "",
+        "segments": [
+          {
+            "height": 38,
+            "lower-diameter": 22,
+            "upper-diameter": 25.5
+          },
+          {
+            "height": 3,
+            "lower-diameter": 28,
+            "upper-diameter": 32
+          },
+          {
+            "height": 1,
+            "lower-diameter": 45,
+            "upper-diameter": 46
+          },
+          {
+            "height": 20,
+            "lower-diameter": 46,
+            "upper-diameter": 46
+          }
+        ],
+        "type": "holder",
+        "unit": "millimeters",
+        "vendor": ""
+      },
+      "post-process": {
+        "break-control": false,
+        "comment": "M6x1 (Cell 47)",
+        "diameter-offset": 12,
+        "length-offset": 12,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 12,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/4000785295701.html?spm=a2g0o.productlist.main.3.13b67e4dwiixOR&algo_pvid=0d7d3a00-067b-43a4-9f69-b38e0a1c822c&algo_exp_id=0d7d3a00-067b-43a4-9f69-b38e0a1c822c-1&pdp_ext_f=%7B\"order\"%3A\"128\"%2C\"eval\"%3A\"1\"%7D&pdp_npi=4%40dis%21CAD%2121.05%2113.89%21%21%2114.50%219.57%21%402103244617399960934658283eb872%2112000039465674684%21sea%21CA%214461114940%21X&curPageLogUid=8FvfdHIHy4Jz&utparam-url=scene%3Asearch%7Cquery_from%3A",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 1",
+            "expressions": {
+              "tool_feedCutting": "600 mmpm",
+              "tool_feedPlunge": "600 mmpm",
+              "tool_feedRamp": "600 mmpm"
+            },
+            "f_n": 0.1,
+            "f_z": 0.03333333333333333,
+            "guid": "8261e255-e40d-4543-a2c8-d8da505a0c24",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 6000,
+            "n_ramp": 6000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 94.2477796076938,
+            "v_f": 600,
+            "v_f_leadIn": 600,
+            "v_f_leadOut": 600,
+            "v_f_plunge": 600,
+            "v_f_ramp": 600,
+            "v_f_transition": 600
+          }
+        ]
+      },
+      "type": "thread mill",
+      "unit": "millimeters",
+      "vendor": "BB"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "generic",
+      "description": "Drill D5 (Cell-5)",
+      "expressions": {
+        "tool_bodyLength": "30 mm",
+        "tool_comment": "'Drill D5 (Cell-5)'",
+        "tool_description": "'Drill D5 (Cell-5)'",
+        "tool_diameter": "5 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "28 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "19",
+        "tool_overallLength": "72 mm",
+        "tool_productId": "'BB HSS-PM Twist Dril'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs'",
+        "tool_shaftDiameter": "5 mm",
+        "tool_shoulderLength": "28 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 5,
+        "HAND": true,
+        "LB": 30,
+        "LCF": 28,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 72,
+        "RE": 0,
+        "SFDM": 5,
+        "SIG": 118,
+        "TP": 0,
+        "assemblyGaugeLength": 30,
+        "shoulder-length": 28,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "6b840604-bf7e-4f5c-a63c-f6272d372f4d",
+      "post-process": {
+        "break-control": false,
+        "comment": "Drill D5 (Cell-5)",
+        "diameter-offset": 19,
+        "length-offset": 19,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 19,
+        "turret": 0
+      },
+      "product-id": "BB HSS-PM Twist Dril",
+      "product-link": "https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 1",
+            "expressions": {
+              "tool_coolant": "'mist'",
+              "tool_feedPlunge": "100 mmpm",
+              "tool_spindleSpeed": "5000 rpm"
+            },
+            "f_z": 0,
+            "guid": "615135d6-4575-4605-9cdb-057fd301145f",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 5000,
+            "name": "Default preset",
+            "tool-coolant": "mist",
+            "use-feed-per-revolution": false,
+            "v_c": 78.53981633974482,
+            "v_f": 0,
+            "v_f_leadIn": 0,
+            "v_f_leadOut": 0,
+            "v_f_plunge": 100,
+            "v_f_ramp": 0,
+            "v_f_retract": 1000,
+            "v_f_transition": 0
+          }
+        ]
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "generic",
+      "description": "Drill D5 (Cell-5)",
+      "expressions": {
+        "holder_description": "'BT30 - Drill chuck shank'",
+        "holder_productLink": "'https://www.aliexpress.com/item/4000081280365.html?spm=a2g0o.order_list.order_list_main.1200.7e7f18027waqaN'",
+        "tool_bodyLength": "30 mm",
+        "tool_comment": "'Drill D5 (Cell-5)'",
+        "tool_description": "'Drill D5 (Cell-5)'",
+        "tool_diameter": "5 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "28 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "17",
+        "tool_overallLength": "72 mm",
+        "tool_productId": "'BB HSS-PM Twist Dril'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs'",
+        "tool_shaftDiameter": "5 mm",
+        "tool_shoulderLength": "28 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 5,
+        "HAND": true,
+        "LB": 30,
+        "LCF": 28,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 72,
+        "RE": 0,
+        "SFDM": 5,
+        "SIG": 118,
+        "TP": 0,
+        "assemblyGaugeLength": 112,
+        "shoulder-length": 28,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "3d5b070a-a486-4dd7-bccb-6cfaa792a4c0",
+      "holder": {
+        "description": "BT30 - Drill chuck shank",
+        "gaugeLength": 82,
+        "guid": "46900665-6048-4144-94e2-8aba1f3f7851",
+        "product-id": "",
+        "product-link": "",
+        "segments": [
+          {
+            "height": 5,
+            "lower-diameter": 9,
+            "upper-diameter": 12
+          },
+          {
+            "height": 13,
+            "lower-diameter": 30,
+            "upper-diameter": 37
+          },
+          {
+            "height": 34,
+            "lower-diameter": 37,
+            "upper-diameter": 37
+          },
+          {
+            "height": 9,
+            "lower-diameter": 40,
+            "upper-diameter": 40
+          },
+          {
+            "height": 1,
+            "lower-diameter": 45,
+            "upper-diameter": 46
+          },
+          {
+            "height": 20,
+            "lower-diameter": 46,
+            "upper-diameter": 46
+          }
+        ],
+        "type": "holder",
+        "unit": "millimeters",
+        "vendor": ""
+      },
+      "post-process": {
+        "break-control": false,
+        "comment": "Drill D5 (Cell-5)",
+        "diameter-offset": 17,
+        "length-offset": 17,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 17,
+        "turret": 0
+      },
+      "product-id": "BB HSS-PM Twist Dril",
+      "product-link": "https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 1",
+            "expressions": {
+              "tool_feedPlunge": "100 mmpm",
+              "tool_spindleSpeed": "5000 rpm"
+            },
+            "f_z": 0,
+            "guid": "552129aa-fd74-4d37-a5b8-5482e589a014",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 5000,
+            "name": "Default preset",
+            "tool-coolant": "flood",
+            "use-feed-per-revolution": false,
+            "v_c": 78.53981633974482,
+            "v_f": 0,
+            "v_f_leadIn": 0,
+            "v_f_leadOut": 0,
+            "v_f_plunge": 100,
+            "v_f_ramp": 0,
+            "v_f_retract": 1000,
+            "v_f_transition": 0
+          }
+        ]
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "generic",
+      "description": "Drill D4.2 (Cell-4)",
+      "expressions": {
+        "tool_bodyLength": "30 mm",
+        "tool_comment": "'Drill D4.2 (Cell-4)'",
+        "tool_description": "'Drill D4.2 (Cell-4)'",
+        "tool_diameter": "4.2 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "22 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "17",
+        "tool_overallLength": "66 mm",
+        "tool_productId": "'BB HSS-PM Twist Dril'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs'",
+        "tool_shaftDiameter": "4.2 mm",
+        "tool_shoulderLength": "22 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 4.2,
+        "HAND": true,
+        "LB": 30,
+        "LCF": 22,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 66,
+        "RE": 0,
+        "SFDM": 4.2,
+        "SIG": 118,
+        "TP": 0,
+        "assemblyGaugeLength": 30,
+        "shoulder-length": 22,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "c739351a-2898-4868-aee0-b1ada8b0f00c",
+      "post-process": {
+        "break-control": false,
+        "comment": "Drill D4.2 (Cell-4)",
+        "diameter-offset": 17,
+        "length-offset": 17,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 17,
+        "turret": 0
+      },
+      "product-id": "BB HSS-PM Twist Dril",
+      "product-link": "https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 4",
+            "expressions": {
+              "tool_feedPlunge": "200 mmpm",
+              "tool_spindleSpeed": "4000 rpm"
+            },
+            "f_z": 0,
+            "guid": "e791f567-d852-49ef-bfec-c3de1af5840a",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 4000,
+            "name": "Default preset",
+            "tool-coolant": "flood",
+            "use-feed-per-revolution": false,
+            "v_c": 52.778756580308524,
+            "v_f": 0,
+            "v_f_leadIn": 0,
+            "v_f_leadOut": 0,
+            "v_f_plunge": 200,
+            "v_f_ramp": 0,
+            "v_f_retract": 1000,
+            "v_f_transition": 0
+          }
+        ]
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "generic",
+      "description": "Drill D4.2 (Cell-4)",
+      "expressions": {
+        "tool_bodyLength": "30 mm",
+        "tool_comment": "'Drill D4.2 (Cell-4)'",
+        "tool_description": "'Drill D4.2 (Cell-4)'",
+        "tool_diameter": "4.2 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "22 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "17",
+        "tool_overallLength": "66 mm",
+        "tool_productId": "'BB HSS-PM Twist Dril'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs'",
+        "tool_shaftDiameter": "4.2 mm",
+        "tool_shoulderLength": "22 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 4.2,
+        "HAND": true,
+        "LB": 30,
+        "LCF": 22,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 66,
+        "RE": 0,
+        "SFDM": 4.2,
+        "SIG": 118,
+        "TP": 0,
+        "assemblyGaugeLength": 30,
+        "shoulder-length": 22,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "66110520-26f2-4298-9fac-556b74dd9792",
+      "post-process": {
+        "break-control": false,
+        "comment": "Drill D4.2 (Cell-4)",
+        "diameter-offset": 17,
+        "length-offset": 17,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 17,
+        "turret": 0
+      },
+      "product-id": "BB HSS-PM Twist Dril",
+      "product-link": "https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 1",
+            "expressions": {
+              "tool_feedPlunge": "300 mmpm",
+              "tool_spindleSpeed": "3000 rpm"
+            },
+            "f_z": 0,
+            "guid": "177212d5-6b29-4abd-a864-5163080a5b14",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 3000,
+            "name": "Default preset",
+            "tool-coolant": "flood",
+            "use-feed-per-revolution": false,
+            "v_c": 39.5840674352314,
+            "v_f": 0,
+            "v_f_leadIn": 0,
+            "v_f_leadOut": 0,
+            "v_f_plunge": 300,
+            "v_f_ramp": 0,
+            "v_f_retract": 1000,
+            "v_f_transition": 0
+          }
+        ]
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "generic",
+      "description": "Drill 5.2 (Cell-6)",
+      "expressions": {
+        "holder_description": "'BT30 - Drill chuck shank'",
+        "holder_productLink": "'https://www.aliexpress.com/item/4000081280365.html?spm=a2g0o.order_list.order_list_main.1200.7e7f18027waqaN'",
+        "tool_bodyLength": "49 mm",
+        "tool_comment": "'Drill 5.2 (Cell-6)'",
+        "tool_description": "'Drill 5.2 (Cell-6)'",
+        "tool_diameter": "5.2 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "28 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "18",
+        "tool_overallLength": "72 mm",
+        "tool_productId": "'BB HSS-PM Twist Dril'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs'",
+        "tool_shaftDiameter": "8 mm",
+        "tool_shoulderLength": "28 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 5.2,
+        "HAND": true,
+        "LB": 49,
+        "LCF": 28,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 72,
+        "RE": 0,
+        "SFDM": 8,
+        "SIG": 118,
+        "TP": 0,
+        "assemblyGaugeLength": 131.5,
+        "shoulder-length": 28,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "8147ee24-0bcd-459a-b10d-f47c9d681e34",
+      "holder": {
+        "description": "BT30 - Drill chuck shank",
+        "gaugeLength": 82.5,
+        "guid": "46900665-6048-4144-94e2-8aba1f3f7851",
+        "product-id": "",
+        "product-link": "",
+        "segments": [
+          {
+            "height": 5,
+            "lower-diameter": 9,
+            "upper-diameter": 12
+          },
+          {
+            "height": 13,
+            "lower-diameter": 30,
+            "upper-diameter": 37
+          },
+          {
+            "height": 34.5,
+            "lower-diameter": 37,
+            "upper-diameter": 37
+          },
+          {
+            "height": 9,
+            "lower-diameter": 40,
+            "upper-diameter": 40
+          },
+          {
+            "height": 1,
+            "lower-diameter": 45,
+            "upper-diameter": 46
+          },
+          {
+            "height": 20,
+            "lower-diameter": 46,
+            "upper-diameter": 46
+          }
+        ],
+        "type": "holder",
+        "unit": "millimeters",
+        "vendor": ""
+      },
+      "post-process": {
+        "break-control": false,
+        "comment": "Drill 5.2 (Cell-6)",
+        "diameter-offset": 18,
+        "length-offset": 18,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 18,
+        "turret": 0
+      },
+      "product-id": "BB HSS-PM Twist Dril",
+      "product-link": "https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 1",
+            "expressions": {
+              "tool_feedPlunge": "300 mmpm",
+              "tool_spindleSpeed": "3000 rpm"
+            },
+            "f_z": 0,
+            "guid": "d4746d1c-86e6-42e1-9daa-c2faf4807887",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 3000,
+            "name": "Default preset",
+            "tool-coolant": "flood",
+            "use-feed-per-revolution": false,
+            "v_c": 49.00884539600077,
+            "v_f": 0,
+            "v_f_leadIn": 0,
+            "v_f_leadOut": 0,
+            "v_f_plunge": 300,
+            "v_f_ramp": 0,
+            "v_f_retract": 1000,
+            "v_f_transition": 0
+          }
+        ]
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "BAP300R-D25-H12-IN",
+      "expressions": {
+        "holder_description": "'BT30 - ER20'",
+        "holder_productLink": "'https://www.aliexpress.com/item/1005005569913435.html?spm=a2g0o.productlist.main.39.42b715e9vNKHxy&algo_pvid=96a7cffe-e7bf-4566-b196-11e90425c318&aem_p4p_detail=20241201041553516203366096700002609519&algo_exp_id=96a7cffe-e7bf-4566-b196-11e90425c318-19&pdp_npi=4%40dis%21CAD%2143.04%2122.38%21%21%2130.05%2115.63%21%402101f04d17330553530873683e53fc%2112000033594054397%21sea%21CA%214461114940%21X&curPageLogUid=5sYZfMfrnJty&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=20241201041553516203366096700002609519_5'",
+        "tool_bodyLength": "26 mm",
+        "tool_comment": "'BAP300R-D25-H12-IN'",
+        "tool_description": "'BAP300R-D25-H12-IN'",
+        "tool_diameter": "25 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "10 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "7",
+        "tool_numberOfFlutes": "3",
+        "tool_overallLength": "80 mm",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005008105653825.html?spm=a2g0o.order_list.order_list_main.66.2fe21802Qkfb8b'",
+        "tool_shaftDiameter": "12 mm",
+        "tool_shoulderLength": "20 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 25,
+        "DCX": 25,
+        "HAND": true,
+        "LB": 26,
+        "LCF": 10,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 80,
+        "RE": 0,
+        "SFDM": 12,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 101,
+        "shoulder-diameter": 25,
+        "shoulder-length": 20,
+        "thread-profile-angle": 60,
+        "tip-diameter": 25,
+        "tip-length": 0,
+        "tip-offset": 0,
+        "upper-radius": 0
+      },
+      "guid": "8a149527-0aee-470f-af11-d36858007aad",
+      "holder": {
+        "description": "BT30 - ER20",
+        "gaugeLength": 75,
+        "guid": "89da028b-7b95-41bf-92d0-f638be906751",
+        "product-id": "",
+        "product-link": "",
+        "segments": [
+          {
+            "height": 2,
+            "lower-diameter": 25,
+            "upper-diameter": 28
+          },
+          {
+            "height": 49,
+            "lower-diameter": 33,
+            "upper-diameter": 33
+          },
+          {
+            "height": 3,
+            "lower-diameter": 33,
+            "upper-diameter": 38
+          },
+          {
+            "height": 1,
+            "lower-diameter": 45,
+            "upper-diameter": 46
+          },
+          {
+            "height": 20,
+            "lower-diameter": 46,
+            "upper-diameter": 46
+          }
+        ],
+        "type": "holder",
+        "unit": "millimeters",
+        "vendor": ""
+      },
+      "post-process": {
+        "break-control": false,
+        "comment": "BAP300R-D25-H12-IN",
+        "diameter-offset": 7,
+        "length-offset": 7,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 7,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/1005008105653825.html?spm=a2g0o.order_list.order_list_main.66.2fe21802Qkfb8b",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 2",
+            "expressions": {
+              "tool_feedCutting": "1500 mmpm",
+              "tool_feedPlunge": "600 mmpm",
+              "tool_feedRamp": "1500 mmpm",
+              "tool_spindleSpeed": "8000 rpm"
+            },
+            "f_n": 0.075,
+            "f_z": 0.0625,
+            "guid": "cd37f4c7-b661-4ebd-a56b-6a57fad0c33d",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 8000,
+            "n_ramp": 8000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 628.3185307179585,
+            "v_f": 1500,
+            "v_f_leadIn": 1500,
+            "v_f_leadOut": 1500,
+            "v_f_plunge": 600,
+            "v_f_ramp": 1500,
+            "v_f_transition": 1500
+          }
+        ]
+      },
+      "type": "face mill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "BB 8x24 (Cell-37)",
+      "expressions": {
+        "tool_bodyLength": "35 mm",
+        "tool_comment": "'BB 8x24 (Cell-37)'",
+        "tool_description": "'BB 8x24 (Cell-37)'",
+        "tool_diameter": "8 mm",
+        "tool_fluteLength": "24 mm",
+        "tool_number": "3",
+        "tool_numberOfFlutes": "3",
+        "tool_overallLength": "60 mm",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000056634619.html?spm=a2g0o.order_list.order_list_main.278.613b1802tPmCml'",
+        "tool_shoulderLength": "24 mm",
+        "tool_vendor": "'BB'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 8,
+        "HAND": true,
+        "LB": 35,
+        "LCF": 24,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 60,
+        "RE": 0,
+        "SFDM": 8,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 35,
+        "shoulder-diameter": 8,
+        "shoulder-length": 24,
+        "thread-profile-angle": 60,
+        "tip-diameter": 8,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "17512e2d-32a4-47be-aedd-3290f6a58c23",
+      "post-process": {
+        "break-control": false,
+        "comment": "BB 8x24 (Cell-37)",
+        "diameter-offset": 3,
+        "length-offset": 3,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 3,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/4000056634619.html?spm=a2g0o.order_list.order_list_main.278.613b1802tPmCml",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 12",
+            "expressions": {
+              "tool_feedCutting": "2200 mmpm",
+              "tool_feedPlunge": "500 mmpm",
+              "tool_feedRamp": "2200 mmpm",
+              "tool_rampAngle": "5 degrees",
+              "tool_spindleSpeed": "14000 rpm"
+            },
+            "f_n": 0.03571428571428571,
+            "f_z": 0.05238095238095238,
+            "guid": "728b4ab6-fcad-4e69-a608-b3238e55d2fd",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 14000,
+            "n_ramp": 14000,
+            "name": "2D Adaptive â 2D Adaptive1 (6)",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 351.85837720205683,
+            "v_f": 2200,
+            "v_f_leadIn": 2200,
+            "v_f_leadOut": 2200,
+            "v_f_plunge": 500,
+            "v_f_ramp": 2200,
+            "v_f_transition": 2200
+          },
+          {
+            "description": "From ops: 33",
+            "expressions": {
+              "tool_feedCutting": "2200 mmpm",
+              "tool_feedPlunge": "500 mmpm",
+              "tool_feedRamp": "2200 mmpm",
+              "tool_rampAngle": "5 degrees",
+              "tool_spindleSpeed": "12000 rpm"
+            },
+            "f_n": 0.041666666666666664,
+            "f_z": 0.06111111111111111,
+            "guid": "602c5485-e96b-4999-8399-3d48bd3329f5",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 12000,
+            "n_ramp": 12000,
+            "name": "adaptive â Adaptive1",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 301.59289474462014,
+            "v_f": 2200,
+            "v_f_leadIn": 2200,
+            "v_f_leadOut": 2200,
+            "v_f_plunge": 500,
+            "v_f_ramp": 2200,
+            "v_f_transition": 2200
+          }
+        ]
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "vendor": "BB"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "generic",
+      "description": "Drill D4.2 (Cell-4)",
+      "expressions": {
+        "tool_bodyLength": "30 mm",
+        "tool_comment": "'Drill D4.2 (Cell-4)'",
+        "tool_description": "'Drill D4.2 (Cell-4)'",
+        "tool_diameter": "4.2 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "22 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "17",
+        "tool_overallLength": "66 mm",
+        "tool_productId": "'BB HSS-PM Twist Dril'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs'",
+        "tool_shaftDiameter": "4.2 mm",
+        "tool_shoulderLength": "22 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 4.2,
+        "HAND": true,
+        "LB": 30,
+        "LCF": 22,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 66,
+        "RE": 0,
+        "SFDM": 4.2,
+        "SIG": 118,
+        "TP": 0,
+        "assemblyGaugeLength": 30,
+        "shoulder-length": 22,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "e946a22e-926c-4176-81cb-331751f7c51f",
+      "post-process": {
+        "break-control": false,
+        "comment": "Drill D4.2 (Cell-4)",
+        "diameter-offset": 17,
+        "length-offset": 17,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 17,
+        "turret": 0
+      },
+      "product-id": "BB HSS-PM Twist Dril",
+      "product-link": "https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 2",
+            "expressions": {
+              "tool_feedPlunge": "300 mmpm",
+              "tool_spindleSpeed": "4000 rpm"
+            },
+            "f_z": 0,
+            "guid": "31be5fa7-f129-4c05-b1a3-6283a3f142bf",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 4000,
+            "name": "Default preset",
+            "tool-coolant": "flood",
+            "use-feed-per-revolution": false,
+            "v_c": 52.778756580308524,
+            "v_f": 0,
+            "v_f_leadIn": 0,
+            "v_f_leadOut": 0,
+            "v_f_plunge": 300,
+            "v_f_ramp": 0,
+            "v_f_retract": 1000,
+            "v_f_transition": 0
+          }
+        ]
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "BB 4x12 (Cell-34)",
+      "expressions": {
+        "holder_description": "' BT30-DC8-60L'",
+        "holder_productLink": "'https://www.aliexpress.com/item/1005003340893590.html?spm=a2g0o.order_list.order_list_main.1492.2cfb18023DkEuu'",
+        "tool_bodyLength": "20 mm",
+        "tool_comment": "'BB 4x12 (Cell-34)'",
+        "tool_description": "'BB 4x12 (Cell-34)'",
+        "tool_diameterOffset": "tool_number",
+        "tool_feedPerTooth": "0.035 mm",
+        "tool_feedPlunge": "1500 mmpm",
+        "tool_fluteLength": "12 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "4",
+        "tool_numberOfFlutes": "3",
+        "tool_productId": "'BB'",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000056634619.html?spm=a2g0o.order_list.order_list_main.113.52ca1802wAGhT0'",
+        "tool_rampAngle": "5 degrees",
+        "tool_shaftDiameter": "4 mm",
+        "tool_shoulderLength": "12 mm",
+        "tool_spindleSpeed": "18000 rpm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 4,
+        "HAND": true,
+        "LB": 20,
+        "LCF": 12,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 55,
+        "RE": 0,
+        "SFDM": 4,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 82,
+        "shoulder-diameter": 4,
+        "shoulder-length": 12,
+        "thread-profile-angle": 60,
+        "tip-diameter": 4,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "4ff31235-6ab6-420a-b5e0-4b3f682cb6e1",
+      "holder": {
+        "description": " BT30-DC8-60L",
+        "gaugeLength": 62,
+        "guid": "4cae4b55-78a1-4be4-87da-cefeeb45a537",
+        "product-id": "",
+        "product-link": "",
+        "segments": [
+          {
+            "height": 38,
+            "lower-diameter": 22,
+            "upper-diameter": 25.5
+          },
+          {
+            "height": 3,
+            "lower-diameter": 28,
+            "upper-diameter": 32
+          },
+          {
+            "height": 1,
+            "lower-diameter": 45,
+            "upper-diameter": 46
+          },
+          {
+            "height": 20,
+            "lower-diameter": 46,
+            "upper-diameter": 46
+          }
+        ],
+        "type": "holder",
+        "unit": "millimeters",
+        "vendor": ""
+      },
+      "post-process": {
+        "break-control": false,
+        "comment": "BB 4x12 (Cell-34)",
+        "diameter-offset": 4,
+        "length-offset": 4,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 4,
+        "turret": 0
+      },
+      "product-id": "BB",
+      "product-link": "https://www.aliexpress.com/item/4000056634619.html?spm=a2g0o.order_list.order_list_main.113.52ca1802wAGhT0",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 2",
+            "expressions": {
+              "tool_feedPerTooth": "0.035 mm",
+              "tool_feedPlunge": "1500 mmpm",
+              "tool_rampAngle": "5 degrees",
+              "tool_spindleSpeed": "18000 rpm"
+            },
+            "f_n": 0.08333333333333333,
+            "f_z": 0.035,
+            "guid": "27951181-52de-487c-8652-65ea1a4a61ac",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 18000,
+            "n_ramp": 18000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 226.1946710584651,
+            "v_f": 1890,
+            "v_f_leadIn": 1890,
+            "v_f_leadOut": 1890,
+            "v_f_plunge": 1500,
+            "v_f_ramp": 850,
+            "v_f_transition": 1890
+          }
+        ]
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "generic",
+      "description": "Drill D7.95 (Cell-14)",
+      "expressions": {
+        "tool_bodyLength": "50 mm",
+        "tool_comment": "'Drill D7.95 (Cell-14)'",
+        "tool_description": "'Drill D7.95 (Cell-14)'",
+        "tool_diameter": "7.95 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "50 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "19",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000081280365.html?spm=a2g0o.order_list.order_list_main.1200.7e7f18027waqaN'",
+        "tool_shaftDiameter": "8 mm",
+        "tool_shoulderLength": "50 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 7.95,
+        "HAND": true,
+        "LB": 50,
+        "LCF": 50,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 130,
+        "RE": 0,
+        "SFDM": 8,
+        "SIG": 118,
+        "TP": 0,
+        "assemblyGaugeLength": 50,
+        "shoulder-length": 50,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "f477e03d-ae5f-4e18-b3e1-b2b813a688c0",
+      "post-process": {
+        "break-control": false,
+        "comment": "Drill D7.95 (Cell-14)",
+        "diameter-offset": 19,
+        "length-offset": 19,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 19,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/4000081280365.html?spm=a2g0o.order_list.order_list_main.1200.7e7f18027waqaN",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 1",
+            "expressions": {
+              "tool_feedPlunge": "75 mmpm",
+              "tool_feedRetract": "500mm/min",
+              "tool_spindleSpeed": "6000 rpm"
+            },
+            "f_z": 0,
+            "guid": "350f2364-bee6-4cc6-9560-2a558d852976",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 6000,
+            "name": "Default preset",
+            "tool-coolant": "flood",
+            "use-feed-per-revolution": false,
+            "v_c": 149.8539695762331,
+            "v_f": 0,
+            "v_f_leadIn": 0,
+            "v_f_leadOut": 0,
+            "v_f_plunge": 75,
+            "v_f_ramp": 0,
+            "v_f_retract": 500,
+            "v_f_transition": 0
+          }
+        ]
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "BB 4x12 (Cell-34)",
+      "expressions": {
+        "tool_bodyLength": "20 mm",
+        "tool_comment": "'BB 4x12 (Cell-34)'",
+        "tool_description": "'BB 4x12 (Cell-34)'",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "12 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "4",
+        "tool_numberOfFlutes": "3",
+        "tool_productId": "'BB'",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000056634619.html?spm=a2g0o.order_list.order_list_main.113.52ca1802wAGhT0'",
+        "tool_shaftDiameter": "4 mm",
+        "tool_shoulderLength": "12 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 4,
+        "HAND": true,
+        "LB": 20,
+        "LCF": 12,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 55,
+        "RE": 0,
+        "SFDM": 4,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 20,
+        "shoulder-diameter": 4,
+        "shoulder-length": 12,
+        "thread-profile-angle": 60,
+        "tip-diameter": 4,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "d7226a40-94e9-4eeb-b52a-ff2e036a08ef",
+      "post-process": {
+        "break-control": false,
+        "comment": "BB 4x12 (Cell-34)",
+        "diameter-offset": 4,
+        "length-offset": 4,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 4,
+        "turret": 0
+      },
+      "product-id": "BB",
+      "product-link": "https://www.aliexpress.com/item/4000056634619.html?spm=a2g0o.order_list.order_list_main.113.52ca1802wAGhT0",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 3",
+            "expressions": {
+              "tool_feedPerTooth": "0.035 mm",
+              "tool_feedPlunge": "1500 mmpm",
+              "tool_rampAngle": "5 degrees",
+              "tool_spindleSpeed": "18000 rpm"
+            },
+            "f_n": 0.08333333333333333,
+            "f_z": 0.035,
+            "guid": "85118eac-7c46-4777-84b5-fa9612c747f5",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 18000,
+            "n_ramp": 18000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 226.1946710584651,
+            "v_f": 1890,
+            "v_f_leadIn": 1890,
+            "v_f_leadOut": 1890,
+            "v_f_plunge": 1500,
+            "v_f_ramp": 850,
+            "v_f_transition": 1890
+          }
+        ]
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "10x30x75 Rough Cell-38",
+      "expressions": {
+        "tool_bodyLength": "38 mm",
+        "tool_comment": "'10x30x75 Rough Cell-38'",
+        "tool_description": "'10x30x75 Rough Cell-38'",
+        "tool_diameter": "10 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "30 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "2",
+        "tool_numberOfFlutes": "3",
+        "tool_overallLength": "75 mm",
+        "tool_productId": "'No Name'",
+        "tool_productLink": "'No Link'",
+        "tool_shaftDiameter": "10 mm",
+        "tool_shoulderLength": "30 mm",
+        "tool_vendor": "'No Name'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 10,
+        "HAND": true,
+        "LB": 38,
+        "LCF": 30,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 75,
+        "RE": 0,
+        "SFDM": 10,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 38,
+        "shoulder-diameter": 10,
+        "shoulder-length": 30,
+        "thread-profile-angle": 60,
+        "tip-diameter": 10,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "373f0c4b-c424-4802-9b12-0bc634798846",
+      "post-process": {
+        "break-control": false,
+        "comment": "10x30x75 Rough Cell-38",
+        "diameter-offset": 2,
+        "length-offset": 2,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 2,
+        "turret": 0
+      },
+      "product-id": "No Name",
+      "product-link": "No Link",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 2",
+            "expressions": {
+              "tool_feedCutting": "1200 mmpm",
+              "tool_feedEntry": "1000 mmpm",
+              "tool_feedExit": "1000 mmpm",
+              "tool_feedPlunge": "2000 mmpm",
+              "tool_feedRamp": "1000 mmpm",
+              "tool_feedTransition": "1000 mmpm",
+              "tool_rampSpindleSpeed": "12000 rpm",
+              "tool_spindleSpeed": "12000 rpm"
+            },
+            "f_n": 0.16666666666666666,
+            "f_z": 0.03333333333333333,
+            "guid": "771ca387-a523-42ed-aa86-bd466bb2ea46",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 12000,
+            "n_ramp": 12000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 376.9911184307752,
+            "v_f": 1200,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 2000,
+            "v_f_ramp": 1000,
+            "v_f_transition": 1200
+          }
+        ]
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "vendor": "No Name"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "M4x07 (Cell 49)",
+      "expressions": {
+        "tool_bodyLength": "25 mm",
+        "tool_comment": "'M4x07 (Cell 49)'",
+        "tool_description": "'M4x07 (Cell 49)'",
+        "tool_diameter": "3 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_feedCutting": "600 mmpm",
+        "tool_feedPlunge": "600 mmpm",
+        "tool_feedRamp": "600 mmpm",
+        "tool_fluteLength": "10 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "12",
+        "tool_numberOfFlutes": "3",
+        "tool_numberOfTeeth": "1",
+        "tool_overallLength": "50 mm",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005008501480382.html?spm=a2g0o.order_list.order_list_main.94.227618026NiJjI'",
+        "tool_shaftDiameter": "4 mm",
+        "tool_shoulderLength": "10 mm",
+        "tool_vendor": "'BB'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 3,
+        "HAND": true,
+        "LB": 25,
+        "LCF": 10,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 50,
+        "RE": 0,
+        "SFDM": 4,
+        "TA": 0,
+        "TP": 0.7,
+        "TPN": 0.7,
+        "TPX": 0.7,
+        "assemblyGaugeLength": 25,
+        "shoulder-diameter": 1.7875639999999997,
+        "shoulder-length": 10,
+        "thread-profile-angle": 60,
+        "thread-tip-type": "point",
+        "tip-diameter": 3,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "058d884b-4872-4013-be28-1df8dc84d352",
+      "post-process": {
+        "break-control": false,
+        "comment": "M4x07 (Cell 49)",
+        "diameter-offset": 12,
+        "length-offset": 12,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 12,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/1005008501480382.html?spm=a2g0o.order_list.order_list_main.94.227618026NiJjI",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 1",
+            "expressions": {
+              "tool_feedCutting": "600 mmpm",
+              "tool_feedPlunge": "600 mmpm",
+              "tool_feedRamp": "600 mmpm"
+            },
+            "f_n": 0.1,
+            "f_z": 0.03333333333333333,
+            "guid": "1e173e73-ab7f-438c-944d-e74cd64c5c20",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 6000,
+            "n_ramp": 6000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 56.548667764616276,
+            "v_f": 600,
+            "v_f_leadIn": 600,
+            "v_f_leadOut": 600,
+            "v_f_plunge": 600,
+            "v_f_ramp": 600,
+            "v_f_transition": 600
+          }
+        ]
+      },
+      "type": "thread mill",
+      "unit": "millimeters",
+      "vendor": "BB"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "AL-2B-R2.0 (Cell-29)",
+      "expressions": {
+        "tool_bodyLength": "25 mm",
+        "tool_comment": "'AL-2B-R2.0 (Cell-29)'",
+        "tool_description": "'AL-2B-R2.0 (Cell-29)'",
+        "tool_diameter": "4 mm",
+        "tool_fluteLength": "12 mm",
+        "tool_number": "9",
+        "tool_numberOfFlutes": "2",
+        "tool_overallLength": "60 mm",
+        "tool_productLink": "'Kowen'",
+        "tool_shaftDiameter": "6 mm",
+        "tool_shoulderLength": "12 mm",
+        "tool_vendor": "'ZCC-CT'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 4,
+        "HAND": true,
+        "LB": 25,
+        "LCF": 12,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 60,
+        "RE": 2,
+        "SFDM": 6,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 25,
+        "shoulder-diameter": 4,
+        "shoulder-length": 12,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "1b94cf4b-231f-42a0-ad58-3ec529b9da99",
+      "post-process": {
+        "break-control": false,
+        "comment": "AL-2B-R2.0 (Cell-29)",
+        "diameter-offset": 9,
+        "length-offset": 9,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 9,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "Kowen",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 11",
+            "expressions": {
+              "tool_spindleSpeed": "10000 rpm"
+            },
+            "f_n": 0.0333333333333333,
+            "f_z": 0.05,
+            "guid": "deb465f0-0723-4912-843c-f7d821168c78",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 10000,
+            "n_ramp": 10000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 125.66370614359172,
+            "v_f": 1000,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 333.333333333333,
+            "v_f_ramp": 333.333333333333,
+            "v_f_transition": 1000
+          }
+        ]
+      },
+      "type": "ball end mill",
+      "unit": "millimeters",
+      "vendor": "ZCC-CT"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "generic",
+      "description": "Drill D6.5 (Cell-10)",
+      "expressions": {
+        "tool_bodyLength": "30 mm",
+        "tool_comment": "'Drill D6.5 (Cell-10)'",
+        "tool_description": "'Drill D6.5 (Cell-10)'",
+        "tool_diameter": "6.5 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "28 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "18",
+        "tool_overallLength": "72 mm",
+        "tool_productId": "'BB HSS-PM Twist Dril'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs'",
+        "tool_shaftDiameter": "6.5 mm",
+        "tool_shoulderLength": "28 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 6.5,
+        "HAND": true,
+        "LB": 30,
+        "LCF": 28,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 72,
+        "RE": 0,
+        "SFDM": 6.5,
+        "SIG": 118,
+        "TP": 0,
+        "assemblyGaugeLength": 30,
+        "shoulder-length": 28,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "02d61c51-8898-4e90-a34e-6f8a6a42d527",
+      "post-process": {
+        "break-control": false,
+        "comment": "Drill D6.5 (Cell-10)",
+        "diameter-offset": 18,
+        "length-offset": 18,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 18,
+        "turret": 0
+      },
+      "product-id": "BB HSS-PM Twist Dril",
+      "product-link": "https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 2",
+            "expressions": {
+              "tool_coolant": "'mist'",
+              "tool_feedPlunge": "100 mmpm",
+              "tool_spindleSpeed": "5000 rpm"
+            },
+            "f_z": 0,
+            "guid": "12d96769-422f-4303-8584-114d196dc602",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 5000,
+            "name": "Default preset",
+            "tool-coolant": "mist",
+            "use-feed-per-revolution": false,
+            "v_c": 102.10176124166829,
+            "v_f": 0,
+            "v_f_leadIn": 0,
+            "v_f_leadOut": 0,
+            "v_f_plunge": 100,
+            "v_f_ramp": 0,
+            "v_f_retract": 1000,
+            "v_f_transition": 0
+          }
+        ]
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "4x12(Cell-33)",
+      "expressions": {
+        "holder_description": "'BT30 - ER16'",
+        "holder_productLink": "'https://www.aliexpress.com/item/1005005569913435.html?spm=a2g0o.productlist.main.39.42b715e9vNKHxy&algo_pvid=96a7cffe-e7bf-4566-b196-11e90425c318&aem_p4p_detail=20241201041553516203366096700002609519&algo_exp_id=96a7cffe-e7bf-4566-b196-11e90425c318-19&pdp_npi=4%40dis%21CAD%2143.04%2122.38%21%21%2130.05%2115.63%21%402101f04d17330553530873683e53fc%2112000033594054397%21sea%21CA%214461114940%21X&curPageLogUid=5sYZfMfrnJty&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=20241201041553516203366096700002609519_5'",
+        "tool_bodyLength": "18 mm",
+        "tool_comment": "'4x12(Cell-33)'",
+        "tool_description": "'4x12(Cell-33)'",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "12 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "15",
+        "tool_numberOfFlutes": "1",
+        "tool_productId": "'Dreanique (good quality)'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005001914354727.html?spm=a2g0o.order_list.order_list_main.147.6e6918022CU1Yg'",
+        "tool_shaftDiameter": "4 mm",
+        "tool_shoulderLength": "12 mm",
+        "tool_vendor": "'Dreanique'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 4,
+        "HAND": true,
+        "LB": 18,
+        "LCF": 12,
+        "NOF": 1,
+        "NT": 1,
+        "OAL": 55,
+        "RE": 0,
+        "SFDM": 4,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 93,
+        "shoulder-diameter": 4,
+        "shoulder-length": 12,
+        "thread-profile-angle": 60,
+        "tip-diameter": 4,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "cd8a195c-7cd3-4bc4-9e92-e610aa660da1",
+      "holder": {
+        "description": "BT30 - ER16",
+        "gaugeLength": 75,
+        "guid": "25ba5c05-93b8-4763-9c57-55b57a198f51",
+        "product-id": "",
+        "product-link": "",
+        "segments": [
+          {
+            "height": 2,
+            "lower-diameter": 25,
+            "upper-diameter": 28
+          },
+          {
+            "height": 49,
+            "lower-diameter": 28,
+            "upper-diameter": 28
+          },
+          {
+            "height": 3,
+            "lower-diameter": 28,
+            "upper-diameter": 32
+          },
+          {
+            "height": 1,
+            "lower-diameter": 45,
+            "upper-diameter": 46
+          },
+          {
+            "height": 20,
+            "lower-diameter": 46,
+            "upper-diameter": 46
+          }
+        ],
+        "type": "holder",
+        "unit": "millimeters",
+        "vendor": ""
+      },
+      "post-process": {
+        "break-control": false,
+        "comment": "4x12(Cell-33)",
+        "diameter-offset": 15,
+        "length-offset": 15,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 15,
+        "turret": 0
+      },
+      "product-id": "Dreanique (good quality)",
+      "product-link": "https://www.aliexpress.com/item/1005001914354727.html?spm=a2g0o.order_list.order_list_main.147.6e6918022CU1Yg",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 5",
+            "expressions": {
+              "tool_coolant": "'mist'",
+              "tool_feedCutting": "1800 mmpm",
+              "tool_feedPlunge": "300 mmpm",
+              "tool_feedRamp": "1200 mmpm",
+              "tool_rampAngle": "5 degrees",
+              "tool_stepdown": "2 mm"
+            },
+            "f_n": 0.01875,
+            "f_z": 0.1125,
+            "guid": "c85a922c-a4ad-4b24-ad2b-41cbeda1e678",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 16000,
+            "n_ramp": 16000,
+            "name": "2D Contour â 2D Contour4 (9)",
+            "ramp-angle": 2,
+            "stepdown": 2,
+            "tool-coolant": "mist",
+            "use-stepdown": true,
+            "use-stepover": false,
+            "v_c": 201.06192982974676,
+            "v_f": 1800,
+            "v_f_leadIn": 1800,
+            "v_f_leadOut": 1800,
+            "v_f_plunge": 300,
+            "v_f_ramp": 1200,
+            "v_f_transition": 1800
+          },
+          {
+            "description": "From ops: 1",
+            "expressions": {
+              "tool_coolant": "'mist'",
+              "tool_feedCutting": "1800 mmpm",
+              "tool_feedPlunge": "300 mmpm",
+              "tool_feedRamp": "1200 mmpm",
+              "tool_rampAngle": "5 degrees",
+              "tool_stepdown": "2 mm"
+            },
+            "f_n": 0.01875,
+            "f_z": 0.1125,
+            "guid": "46792cff-fcde-47e2-bbc8-12df20f6e9cf",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 16000,
+            "n_ramp": 16000,
+            "name": "2D Contour â 2D Contour4 (6)",
+            "ramp-angle": 2,
+            "stepdown": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": true,
+            "use-stepover": false,
+            "v_c": 201.06192982974676,
+            "v_f": 1800,
+            "v_f_leadIn": 1800,
+            "v_f_leadOut": 1800,
+            "v_f_plunge": 300,
+            "v_f_ramp": 1200,
+            "v_f_transition": 1800
+          },
+          {
+            "description": "From ops: 2",
+            "expressions": {
+              "tool_coolant": "'mist'",
+              "tool_feedCutting": "1200 mmpm",
+              "tool_feedPlunge": "300 mmpm",
+              "tool_feedRamp": "1200 mmpm",
+              "tool_rampAngle": "5 degrees",
+              "tool_stepdown": "2 mm"
+            },
+            "f_n": 0.01875,
+            "f_z": 0.075,
+            "guid": "649c26a4-15a8-4c62-9e91-ac9c12bc30db",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 16000,
+            "n_ramp": 16000,
+            "name": "2D Contour â 2D Contour4 (7)",
+            "ramp-angle": 2,
+            "stepdown": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": true,
+            "use-stepover": false,
+            "v_c": 201.06192982974676,
+            "v_f": 1200,
+            "v_f_leadIn": 1800,
+            "v_f_leadOut": 1800,
+            "v_f_plunge": 300,
+            "v_f_ramp": 1200,
+            "v_f_transition": 1200
+          }
+        ]
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "vendor": "Dreanique"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "Chamfer-D8 (Cell-28)",
+      "expressions": {
+        "tool_comment": "'Chamfer-D8 (Cell-28)'",
+        "tool_description": "'Chamfer-D8 (Cell-28)'",
+        "tool_diameterOffset": "tool_number",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "5",
+        "tool_numberOfFlutes": "3",
+        "tool_productId": "'BB BL2060'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005007793863503.html?spm=a2g0o.order_list.order_list_main.5.53241802m5uEmL'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 8,
+        "HAND": true,
+        "LB": 30,
+        "LCF": 16,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 40,
+        "RE": 0,
+        "SFDM": 8,
+        "TA": 45,
+        "TP": 0,
+        "assemblyGaugeLength": 30,
+        "shoulder-diameter": 8,
+        "shoulder-length": 24,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "a0951f78-510f-41af-acd9-069fad646d9f",
+      "post-process": {
+        "break-control": false,
+        "comment": "Chamfer-D8 (Cell-28)",
+        "diameter-offset": 5,
+        "length-offset": 5,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 5,
+        "turret": 0
+      },
+      "product-id": "BB BL2060",
+      "product-link": "https://www.aliexpress.com/item/1005007793863503.html?spm=a2g0o.order_list.order_list_main.5.53241802m5uEmL",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 3",
+            "expressions": {
+              "tool_feedCutting": "2000 mmpm",
+              "tool_feedPlunge": "1000 mmpm",
+              "tool_feedRamp": "2000 mmpm",
+              "tool_spindleSpeed": "12000 rpm"
+            },
+            "f_n": 0.08333333333333333,
+            "f_z": 0.05555555555555555,
+            "guid": "03bc9b57-cfb2-4bd8-892c-0f55191d9cd1",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 12000,
+            "n_ramp": 12000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 301.59289474462014,
+            "v_f": 2000,
+            "v_f_leadIn": 2000,
+            "v_f_leadOut": 2000,
+            "v_f_plunge": 1000,
+            "v_f_ramp": 2000,
+            "v_f_transition": 2000
+          }
+        ]
+      },
+      "type": "chamfer mill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "unspecified",
+      "GRADE": "Mill Generic",
+      "description": "2F R3 10xD6x50 (Cell-32)",
+      "expressions": {
+        "holder_description": "'BT30 - ER16'",
+        "holder_productLink": "'https://www.aliexpress.com/item/1005005569913435.html?spm=a2g0o.productlist.main.39.42b715e9vNKHxy&algo_pvid=96a7cffe-e7bf-4566-b196-11e90425c318&aem_p4p_detail=20241201041553516203366096700002609519&algo_exp_id=96a7cffe-e7bf-4566-b196-11e90425c318-19&pdp_npi=4%40dis%21CAD%2143.04%2122.38%21%21%2130.05%2115.63%21%402101f04d17330553530873683e53fc%2112000033594054397%21sea%21CA%214461114940%21X&curPageLogUid=5sYZfMfrnJty&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=20241201041553516203366096700002609519_5'",
+        "tool_comment": "'2F R3 10xD6x50 (Cell-32)'",
+        "tool_description": "'2F R3 10xD6x50 (Cell-32)'",
+        "tool_number": "14",
+        "tool_numberOfFlutes": "2",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005001612974530.html?spm=a2g0o.order_list.order_list_main.104.7e0f1802j35Txj'",
+        "tool_vendor": "'Ball-T-BF2055'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 6,
+        "HAND": true,
+        "LB": 20,
+        "LCF": 20,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 20,
+        "RE": 0,
+        "SFDM": 6,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 95,
+        "profile": [
+          {
+            "end": [
+              1.38778e-15,
+              0
+            ]
+          },
+          {
+            "arc": true,
+            "ccw": true,
+            "center": [
+              9.24446e-33,
+              3
+            ],
+            "end": [
+              1.5,
+              5.59808
+            ]
+          },
+          {
+            "end": [
+              1.5,
+              15
+            ]
+          },
+          {
+            "end": [
+              3,
+              15
+            ]
+          },
+          {
+            "end": [
+              3,
+              20
+            ]
+          },
+          {
+            "end": [
+              0,
+              20
+            ]
+          }
+        ],
+        "shoulder-length": 20,
+        "thread-profile-angle": 60,
+        "tip-diameter": 6,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "5d6e3f82-000d-41d7-821a-247443631f67",
+      "holder": {
+        "description": "BT30 - ER16",
+        "gaugeLength": 75,
+        "guid": "25ba5c05-93b8-4763-9c57-55b57a198f51",
+        "product-id": "",
+        "product-link": "",
+        "segments": [
+          {
+            "height": 2,
+            "lower-diameter": 25,
+            "upper-diameter": 28
+          },
+          {
+            "height": 49,
+            "lower-diameter": 28,
+            "upper-diameter": 28
+          },
+          {
+            "height": 3,
+            "lower-diameter": 28,
+            "upper-diameter": 32
+          },
+          {
+            "height": 1,
+            "lower-diameter": 45,
+            "upper-diameter": 46
+          },
+          {
+            "height": 20,
+            "lower-diameter": 46,
+            "upper-diameter": 46
+          }
+        ],
+        "type": "holder",
+        "unit": "millimeters",
+        "vendor": ""
+      },
+      "post-process": {
+        "break-control": false,
+        "comment": "2F R3 10xD6x50 (Cell-32)",
+        "diameter-offset": 14,
+        "length-offset": 14,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 14,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/1005001612974530.html?spm=a2g0o.order_list.order_list_main.104.7e0f1802j35Txj",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 26",
+            "expressions": {
+              "tool_coolant": "'flood'",
+              "tool_feedCutting": "100 mmpm",
+              "tool_feedEntry": "1000 mmpm",
+              "tool_feedExit": "1000 mmpm",
+              "tool_feedPlunge": "1000 mmpm",
+              "tool_feedRamp": "1000 mmpm",
+              "tool_feedTransition": "1000 mmpm",
+              "tool_spindleSpeed": "4000 rpm"
+            },
+            "f_n": 0.25,
+            "f_z": 0.0125,
+            "guid": "2aa8325a-b35b-4b06-8a04-fb32f798e496",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 4000,
+            "n_ramp": 4000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 75.39822368615503,
+            "v_f": 100,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 1000,
+            "v_f_ramp": 1000,
+            "v_f_transition": 100
+          }
+        ]
+      },
+      "type": "form mill",
+      "unit": "millimeters",
+      "vendor": "Ball-T-BF2055"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "generic",
+      "description": "Drill D3.3 (Cell-3)",
+      "expressions": {
+        "tool_bodyLength": "30 mm",
+        "tool_comment": "'Drill D3.3 (Cell-3)'",
+        "tool_description": "'Drill D3.3 (Cell-3)'",
+        "tool_diameter": "3.3 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "18 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "18",
+        "tool_overallLength": "50 mm",
+        "tool_productId": "'BB HSS-PM Twist Dril'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs'",
+        "tool_shaftDiameter": "3.3 mm",
+        "tool_shoulderLength": "18 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 3.3,
+        "HAND": true,
+        "LB": 30,
+        "LCF": 18,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 50,
+        "RE": 0,
+        "SFDM": 3.3,
+        "SIG": 118,
+        "TP": 0,
+        "assemblyGaugeLength": 30,
+        "shoulder-length": 18,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "2df05a8b-70c6-4674-9137-c08355022a06",
+      "post-process": {
+        "break-control": false,
+        "comment": "Drill D3.3 (Cell-3)",
+        "diameter-offset": 18,
+        "length-offset": 18,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 18,
+        "turret": 0
+      },
+      "product-id": "BB HSS-PM Twist Dril",
+      "product-link": "https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 1",
+            "expressions": {
+              "tool_feedPlunge": "300 mmpm",
+              "tool_spindleSpeed": "3000 rpm"
+            },
+            "f_z": 0,
+            "guid": "8749b6c1-3890-4e2e-9281-b285d24ae9d7",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 3000,
+            "name": "Default preset",
+            "tool-coolant": "flood",
+            "use-feed-per-revolution": false,
+            "v_c": 31.101767270538954,
+            "v_f": 0,
+            "v_f_leadIn": 0,
+            "v_f_leadOut": 0,
+            "v_f_plunge": 300,
+            "v_f_ramp": 0,
+            "v_f_retract": 1000,
+            "v_f_transition": 0
+          }
+        ]
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "M5x08 (Cell 46)",
+      "expressions": {
+        "tool_bodyLength": "20 mm",
+        "tool_comment": "'M5x08 (Cell 46)'",
+        "tool_description": "'M5x08 (Cell 46)'",
+        "tool_diameter": "4 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "15 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_maximumThreadPitch": "0.8 mm",
+        "tool_number": "11",
+        "tool_numberOfFlutes": "4",
+        "tool_numberOfTeeth": "1",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000785295701.html?spm=a2g0o.productlist.main.3.13b67e4dwiixOR&algo_pvid=0d7d3a00-067b-43a4-9f69-b38e0a1c822c&algo_exp_id=0d7d3a00-067b-43a4-9f69-b38e0a1c822c-1&pdp_ext_f=%7B\"order\"%3A\"128\"%2C\"eval\"%3A\"1\"%7D&pdp_npi=4%40dis%21CAD%2121.05%2113.89%21%21%2114.50%219.57%21%402103244617399960934658283eb872%2112000039465674684%21sea%21CA%214461114940%21X&curPageLogUid=8FvfdHIHy4Jz&utparam-url=scene%3Asearch%7Cquery_from%3A'",
+        "tool_shaftDiameter": "4 mm",
+        "tool_shoulderLength": "20 mm",
+        "tool_vendor": "'BB'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 4,
+        "HAND": true,
+        "LB": 20,
+        "LCF": 15,
+        "NOF": 4,
+        "NT": 1,
+        "OAL": 38,
+        "RE": 0,
+        "SFDM": 4,
+        "TA": 0,
+        "TP": 0.8,
+        "TPN": 0.8,
+        "TPX": 0.8,
+        "assemblyGaugeLength": 20,
+        "shoulder-diameter": 2.614359,
+        "shoulder-length": 20,
+        "thread-profile-angle": 60,
+        "thread-tip-type": "point",
+        "tip-diameter": 4,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "efcad090-4d18-4219-8289-dbf20d57417e",
+      "post-process": {
+        "break-control": false,
+        "comment": "M5x08 (Cell 46)",
+        "diameter-offset": 11,
+        "length-offset": 11,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 11,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/4000785295701.html?spm=a2g0o.productlist.main.3.13b67e4dwiixOR&algo_pvid=0d7d3a00-067b-43a4-9f69-b38e0a1c822c&algo_exp_id=0d7d3a00-067b-43a4-9f69-b38e0a1c822c-1&pdp_ext_f=%7B\"order\"%3A\"128\"%2C\"eval\"%3A\"1\"%7D&pdp_npi=4%40dis%21CAD%2121.05%2113.89%21%21%2114.50%219.57%21%402103244617399960934658283eb872%2112000039465674684%21sea%21CA%214461114940%21X&curPageLogUid=8FvfdHIHy4Jz&utparam-url=scene%3Asearch%7Cquery_from%3A",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 2",
+            "expressions": {
+              "tool_coolant": "'mist'",
+              "tool_feedCutting": "750 mmpm",
+              "tool_feedPlunge": "600 mmpm",
+              "tool_feedRamp": "750 mmpm"
+            },
+            "f_n": 0.1,
+            "f_z": 0.03125,
+            "guid": "cd6ee76f-a978-4b2b-b451-eff66981d4d8",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 6000,
+            "n_ramp": 6000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "mist",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 75.39822368615503,
+            "v_f": 750,
+            "v_f_leadIn": 750,
+            "v_f_leadOut": 750,
+            "v_f_plunge": 600,
+            "v_f_ramp": 750,
+            "v_f_transition": 750
+          }
+        ]
+      },
+      "type": "thread mill",
+      "unit": "millimeters",
+      "vendor": "BB"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "Cell-45",
+      "expressions": {
+        "tool_comment": "'Torelochka MD D50 '",
+        "tool_description": "'Cell-45'",
+        "tool_diameter": "57 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "20",
+        "tool_productId": "'+7 929 941 9323'",
+        "tool_productLink": "'+7 929 941 9323'",
+        "tool_vendor": "'Maks Frezeryga'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 57,
+        "DCX": 57,
+        "HAND": true,
+        "LB": 30,
+        "LCF": 10,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 30,
+        "RE": 0.8,
+        "SFDM": 32,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 30,
+        "shoulder-diameter": 57,
+        "shoulder-length": 10,
+        "thread-profile-angle": 60,
+        "tip-diameter": 55.4,
+        "tip-length": 0,
+        "tip-offset": 0,
+        "upper-radius": 0
+      },
+      "guid": "5f247097-7347-4f67-aa63-a78e74ebc33c",
+      "post-process": {
+        "break-control": false,
+        "comment": "Torelochka MD D50",
+        "diameter-offset": 20,
+        "length-offset": 20,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 20,
+        "turret": 0
+      },
+      "product-id": "+7 929 941 9323",
+      "product-link": "+7 929 941 9323",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 2",
+            "expressions": {
+              "tool_feedCutting": "1000 mmpm",
+              "tool_feedPlunge": "500 mmpm",
+              "tool_feedRamp": "1000 mmpm",
+              "tool_spindleSpeed": "8000 rpm"
+            },
+            "f_n": 0.0625,
+            "f_z": 0.041666666666666664,
+            "guid": "96c76fd0-2d17-4144-8de9-40baed57ac58",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 8000,
+            "n_ramp": 8000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 1432.5662500369456,
+            "v_f": 1000,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 500,
+            "v_f_ramp": 1000,
+            "v_f_transition": 1000
+          }
+        ]
+      },
+      "type": "face mill",
+      "unit": "millimeters",
+      "vendor": "Maks Frezeryga"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "2F R2.5x5x75 BB (Cell-55)",
+      "expressions": {
+        "tool_comment": "'2F R2.5x5x75 BB (Cell-55)'",
+        "tool_description": "'2F R2.5x5x75 BB (Cell-55)'",
+        "tool_diameter": "5 mm",
+        "tool_fluteLength": "10 mm",
+        "tool_number": "9",
+        "tool_numberOfFlutes": "2",
+        "tool_overallLength": "75 mm",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000008975424.html?spm=a2g0o.order_list.order_list_main.40.235c180280jQZp'",
+        "tool_shoulderLength": "10 mm",
+        "tool_vendor": "'BB'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 5,
+        "HAND": true,
+        "LB": 24,
+        "LCF": 10,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 75,
+        "RE": 2.5,
+        "SFDM": 5,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 24,
+        "shoulder-diameter": 5,
+        "shoulder-length": 10,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "d370bfab-38dc-4619-a854-d6062dda4ac2",
+      "post-process": {
+        "break-control": false,
+        "comment": "2F R2.5x5x75 BB (Cell-55)",
+        "diameter-offset": 9,
+        "length-offset": 9,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 9,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/4000008975424.html?spm=a2g0o.order_list.order_list_main.40.235c180280jQZp",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 2",
+            "expressions": {
+              "tool_feedCutting": "1400 mmpm",
+              "tool_feedPlunge": "500 mmpm",
+              "tool_feedRamp": "1000 mmpm",
+              "tool_rampAngle": "3 degrees",
+              "tool_rampSpindleSpeed": "14000 rpm",
+              "tool_spindleSpeed": "14000 rpm"
+            },
+            "f_n": 0.03571428571428571,
+            "f_z": 0.05,
+            "guid": "1145b5c5-ef8d-4d56-9f59-2df6c5649e1a",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 14000,
+            "n_ramp": 14000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 219.9114857512855,
+            "v_f": 1400,
+            "v_f_leadIn": 1400,
+            "v_f_leadOut": 1400,
+            "v_f_plunge": 500,
+            "v_f_ramp": 1000,
+            "v_f_transition": 1400
+          }
+        ]
+      },
+      "type": "ball end mill",
+      "unit": "millimeters",
+      "vendor": "BB"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "generic",
+      "description": "D8x40 Reamer",
+      "expressions": {
+        "tool_bodyLength": "45 mm",
+        "tool_comment": "' D8x40 Reamer'",
+        "tool_description": "' D8x40 Reamer'",
+        "tool_diameter": "8 mm",
+        "tool_fluteLength": "40 mm",
+        "tool_number": "6",
+        "tool_overallLength": "75 mm",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005008705407215.html?spm=a2g0o.order_list.order_list_main.40.576b1802XfM5UP'",
+        "tool_shaftDiameter": "8 mm",
+        "tool_shoulderLength": "40 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 8,
+        "HAND": true,
+        "LB": 45,
+        "LCF": 40,
+        "NOF": 6,
+        "NT": 1,
+        "OAL": 75,
+        "RE": 0,
+        "SFDM": 8,
+        "SIG": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 45,
+        "shoulder-length": 40,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "2d6a13ad-8d46-444a-ac5e-13a6b585c9a6",
+      "post-process": {
+        "break-control": false,
+        "comment": "D8x40 Reamer",
+        "diameter-offset": 6,
+        "length-offset": 6,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 6,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/1005008705407215.html?spm=a2g0o.order_list.order_list_main.40.576b1802XfM5UP",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 2",
+            "expressions": {
+              "tool_coolant": "'mist'",
+              "tool_feedPlunge": "50 mmpm",
+              "tool_feedRetract": "200 mmpm",
+              "tool_spindleSpeed": "5000 rpm"
+            },
+            "f_z": 0,
+            "guid": "33489086-fef8-4a4f-9970-0ba07c4cab1d",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 5000,
+            "name": "Default preset",
+            "tool-coolant": "mist",
+            "use-feed-per-revolution": false,
+            "v_c": 125.66370614359172,
+            "v_f": 0,
+            "v_f_leadIn": 0,
+            "v_f_leadOut": 0,
+            "v_f_plunge": 50,
+            "v_f_ramp": 0,
+            "v_f_retract": 200,
+            "v_f_transition": 0
+          }
+        ]
+      },
+      "type": "reamer",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "3R0.2x4x50 (Cell-64)",
+      "expressions": {
+        "tool_bodyLength": "20 mm",
+        "tool_comment": "'3R0.2x4x50 (Cell-64)'",
+        "tool_cornerRadius": "0.2 mm",
+        "tool_description": "'3R0.2x4x50 (Cell-64)'",
+        "tool_diameter": "3 mm",
+        "tool_fluteLength": "10 mm",
+        "tool_numberOfFlutes": "3",
+        "tool_overallLength": "50 mm",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005007456996367.html?spm=a2g0o.order_list.order_list_main.51.2e8d1802N52R4W'",
+        "tool_shaftDiameter": "4 mm",
+        "tool_shoulderLength": "12 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 3,
+        "HAND": true,
+        "LB": 20,
+        "LCF": 10,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 50,
+        "RE": 0.2,
+        "SFDM": 4,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 20,
+        "shoulder-diameter": 3,
+        "shoulder-length": 12,
+        "thread-profile-angle": 60,
+        "tip-diameter": 2.6,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "ca4879ad-de86-4d95-9d2b-672ae52ddf19",
+      "post-process": {
+        "break-control": false,
+        "comment": "3R0.2x4x50 (Cell-64)",
+        "diameter-offset": 2,
+        "length-offset": 2,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 2,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/1005007456996367.html?spm=a2g0o.order_list.order_list_main.51.2e8d1802N52R4W",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 1",
+            "expressions": {
+              "tool_coolant": "'mist'",
+              "tool_feedPlunge": "200 mmpm",
+              "tool_spindleSpeed": "12000 rpm",
+              "tool_stepdown": "0.5 mm"
+            },
+            "f_n": 0.016666666666666666,
+            "f_z": 0.027777777777777776,
+            "guid": "d6f56108-b090-410b-9688-6b44ec971c0d",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 12000,
+            "n_ramp": 12000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "stepdown": 0.5,
+            "tool-coolant": "mist",
+            "use-stepdown": true,
+            "use-stepover": false,
+            "v_c": 113.09733552923255,
+            "v_f": 1000,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 200,
+            "v_f_ramp": 333.333333333333,
+            "v_f_transition": 1000
+          }
+        ]
+      },
+      "type": "bull nose end mill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "carbide",
+      "GRADE": "Mill Generic",
+      "description": "BB 6x24x75",
+      "expressions": {
+        "holder_description": "'BT30 - ER16'",
+        "holder_productLink": "'https://www.aliexpress.com/item/1005005569913435.html?spm=a2g0o.productlist.main.39.42b715e9vNKHxy&algo_pvid=96a7cffe-e7bf-4566-b196-11e90425c318&aem_p4p_detail=20241201041553516203366096700002609519&algo_exp_id=96a7cffe-e7bf-4566-b196-11e90425c318-19&pdp_npi=4%40dis%21CAD%2143.04%2122.38%21%21%2130.05%2115.63%21%402101f04d17330553530873683e53fc%2112000033594054397%21sea%21CA%214461114940%21X&curPageLogUid=5sYZfMfrnJty&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=20241201041553516203366096700002609519_5'",
+        "tool_bodyLength": "30 mm",
+        "tool_description": "'BB 6x24x75'",
+        "tool_diameter": "6 mm",
+        "tool_diameterOffset": "0",
+        "tool_fluteLength": "24 mm",
+        "tool_lengthOffset": "0",
+        "tool_manualToolChange": "false",
+        "tool_material": "'carbide'",
+        "tool_number": "6",
+        "tool_numberOfFlutes": "3",
+        "tool_overallLength": "75 mm",
+        "tool_productId": "'BB 3 Flute Carbide Milling Cutter Tungsten End Mill'",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000056634619.html?spm=a2g0o.order_list.order_list_main.56.626c1802Imjxbs'",
+        "tool_shaftDiameter": "6 mm",
+        "tool_shoulderLength": "24 mm",
+        "tool_vendor": "'BC3855'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 6,
+        "HAND": true,
+        "LB": 30,
+        "LCF": 24,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 75,
+        "RE": 0,
+        "SFDM": 6,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 105,
+        "shoulder-diameter": 6,
+        "shoulder-length": 24,
+        "thread-profile-angle": 60,
+        "tip-diameter": 6,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "5f2b44b4-8862-4d53-bd7b-983657bbc2b5",
+      "holder": {
+        "description": "BT30 - ER16",
+        "gaugeLength": 75,
+        "guid": "25ba5c05-93b8-4763-9c57-55b57a198f51",
+        "product-id": "",
+        "product-link": "",
+        "segments": [
+          {
+            "height": 2,
+            "lower-diameter": 25,
+            "upper-diameter": 28
+          },
+          {
+            "height": 49,
+            "lower-diameter": 28,
+            "upper-diameter": 28
+          },
+          {
+            "height": 3,
+            "lower-diameter": 28,
+            "upper-diameter": 32
+          },
+          {
+            "height": 1,
+            "lower-diameter": 45,
+            "upper-diameter": 46
+          },
+          {
+            "height": 20,
+            "lower-diameter": 46,
+            "upper-diameter": 46
+          }
+        ],
+        "type": "holder",
+        "unit": "millimeters",
+        "vendor": ""
+      },
+      "post-process": {
+        "break-control": false,
+        "comment": "",
+        "diameter-offset": 0,
+        "length-offset": 0,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 6,
+        "turret": 0
+      },
+      "product-id": "BB 3 Flute Carbide Milling Cutter Tungsten End Mill",
+      "product-link": "https://www.aliexpress.com/item/4000056634619.html?spm=a2g0o.order_list.order_list_main.56.626c1802Imjxbs",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 6",
+            "expressions": {
+              "tool_feedCutting": "1280 mmpm",
+              "tool_feedEntry": "1280 mmpm",
+              "tool_feedExit": "1280 mmpm",
+              "tool_feedPlunge": "1000 mmpm",
+              "tool_feedRamp": "1280 mmpm",
+              "tool_feedTransition": "1280 mmpm",
+              "tool_rampSpindleSpeed": "13000 rpm",
+              "tool_spindleSpeed": "13000 rpm"
+            },
+            "f_n": 0.07692307692307693,
+            "f_z": 0.03282051282051282,
+            "guid": "ae068b18-de4e-4ab5-8582-1fdb34c45a78",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 13000,
+            "n_ramp": 13000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 245.04422698000388,
+            "v_f": 1280,
+            "v_f_leadIn": 1280,
+            "v_f_leadOut": 1280,
+            "v_f_plunge": 1000,
+            "v_f_ramp": 1280,
+            "v_f_transition": 1280
+          }
+        ]
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "vendor": "BC3855"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "BB 8x8x24 (cell-37)",
+      "expressions": {
+        "tool_bodyLength": "30 mm",
+        "tool_comment": "'BB 8x8x24 (cell-37)'",
+        "tool_description": "'BB 8x8x24 (cell-37)'",
+        "tool_diameterOffset": "3",
+        "tool_fluteLength": "24 mm",
+        "tool_lengthOffset": "3",
+        "tool_number": "3",
+        "tool_numberOfFlutes": "3",
+        "tool_productId": "'BB 8x8x24 (cell-37)'",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000056634619.html?spm=a2g0o.order_list.order_list_main.5.58ec1802JI5YTP'",
+        "tool_shoulderLength": "24 mm",
+        "tool_vendor": "''"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 8,
+        "HAND": true,
+        "LB": 30,
+        "LCF": 24,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 60,
+        "RE": 0,
+        "SFDM": 8,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 30,
+        "shoulder-diameter": 8,
+        "shoulder-length": 24,
+        "thread-profile-angle": 60,
+        "tip-diameter": 8,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "c27283b7-7a5b-49ed-8ace-b1575a862905",
+      "post-process": {
+        "break-control": false,
+        "comment": "BB 8x8x24 (cell-37)",
+        "diameter-offset": 3,
+        "length-offset": 3,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 3,
+        "turret": 0
+      },
+      "product-id": "BB 8x8x24 (cell-37)",
+      "product-link": "https://www.aliexpress.com/item/4000056634619.html?spm=a2g0o.order_list.order_list_main.5.58ec1802JI5YTP",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 50",
+            "expressions": {
+              "tool_feedCutting": "1300 mmpm",
+              "tool_feedRamp": "1300 mmpm",
+              "tool_spindleSpeed": "12000 rpm"
+            },
+            "f_n": 0.1,
+            "f_z": 0.03611111111111111,
+            "guid": "74deb9d6-78d2-4c0d-be88-c6e3beb1af94",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 12000,
+            "n_ramp": 12000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 301.59289474462014,
+            "v_f": 1300,
+            "v_f_leadIn": 1300,
+            "v_f_leadOut": 1300,
+            "v_f_plunge": 1200,
+            "v_f_ramp": 1300,
+            "v_f_transition": 1300
+          }
+        ]
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "4x15(Cell-33)",
+      "expressions": {
+        "tool_bodyLength": "18 mm",
+        "tool_comment": "'4x15(Cell-33)'",
+        "tool_description": "'4x15(Cell-33)'",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "15 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "15",
+        "tool_numberOfFlutes": "1",
+        "tool_productId": "'No-name (good quality)'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005001914354727.html?spm=a2g0o.order_list.order_list_main.147.6e6918022CU1Yg'",
+        "tool_shaftDiameter": "4 mm",
+        "tool_shoulderLength": "15 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 4,
+        "HAND": true,
+        "LB": 18,
+        "LCF": 15,
+        "NOF": 1,
+        "NT": 1,
+        "OAL": 55,
+        "RE": 0,
+        "SFDM": 4,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 18,
+        "shoulder-diameter": 4,
+        "shoulder-length": 15,
+        "thread-profile-angle": 60,
+        "tip-diameter": 4,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "4b9bc9bd-604c-412f-ba0b-6643467a44e5",
+      "post-process": {
+        "break-control": false,
+        "comment": "4x15(Cell-33)",
+        "diameter-offset": 15,
+        "length-offset": 15,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 15,
+        "turret": 0
+      },
+      "product-id": "No-name (good quality)",
+      "product-link": "https://www.aliexpress.com/item/1005001914354727.html?spm=a2g0o.order_list.order_list_main.147.6e6918022CU1Yg",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 7",
+            "expressions": {
+              "tool_feedCutting": "800 mmpm",
+              "tool_feedPlunge": "300 mmpm",
+              "tool_feedRamp": "800 mmpm",
+              "tool_rampAngle": "5 degrees",
+              "tool_spindleSpeed": "16000 rpm"
+            },
+            "f_n": 0.01875,
+            "f_z": 0.05,
+            "guid": "9b0b718c-0298-47e8-8c52-3408a9d3d324",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 16000,
+            "n_ramp": 16000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 201.06192982974676,
+            "v_f": 800,
+            "v_f_leadIn": 800,
+            "v_f_leadOut": 800,
+            "v_f_plunge": 300,
+            "v_f_ramp": 800,
+            "v_f_transition": 800
+          }
+        ]
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "ÐD10x2",
+      "expressions": {
+        "tool_bodyLength": "17 mm",
+        "tool_comment": "'ÐD10x2'",
+        "tool_description": "'ÐD10x2'",
+        "tool_diameter": "10 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "2 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "14",
+        "tool_numberOfFlutes": "9",
+        "tool_overallLength": "50 mm",
+        "tool_productId": "'No Name'",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000017152649.html?spm=a2g0o.order_list.order_list_main.29.255e1802cTwwPS'",
+        "tool_shaftDiameter": "5 mm",
+        "tool_shoulderLength": "17 mm",
+        "tool_vendor": "'No Name'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 10,
+        "HAND": true,
+        "LB": 17,
+        "LCF": 2,
+        "NOF": 9,
+        "NT": 1,
+        "OAL": 50,
+        "RE": 0,
+        "SFDM": 5,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 17,
+        "shoulder-diameter": 5,
+        "shoulder-length": 17,
+        "thread-profile-angle": 60,
+        "tip-diameter": 10,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "d42adfc1-a722-4405-9ef4-261f5a66e15e",
+      "post-process": {
+        "break-control": false,
+        "comment": "ÐD10x2",
+        "diameter-offset": 14,
+        "length-offset": 14,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 14,
+        "turret": 0
+      },
+      "product-id": "No Name",
+      "product-link": "https://www.aliexpress.com/item/4000017152649.html?spm=a2g0o.order_list.order_list_main.29.255e1802cTwwPS",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 2",
+            "expressions": {
+              "tool_feedCutting": "370 mmpm",
+              "tool_feedEntry": "370 mmpm",
+              "tool_feedPlunge": "1000 mmpm",
+              "tool_feedRamp": "370 mmpm",
+              "tool_rampAngle": "3 degrees",
+              "tool_spindleSpeed": "6300 rpm"
+            },
+            "f_n": 0.15873015873015872,
+            "f_z": 0.006525573192239859,
+            "guid": "26ea6365-80b4-4907-a13d-b2f4649efe37",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 6300,
+            "n_ramp": 6300,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 197.92033717615695,
+            "v_f": 370,
+            "v_f_leadIn": 370,
+            "v_f_leadOut": 370,
+            "v_f_plunge": 1000,
+            "v_f_ramp": 370,
+            "v_f_transition": 370
+          }
+        ]
+      },
+      "type": "slot mill",
+      "unit": "millimeters",
+      "vendor": "No Name"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "generic",
+      "description": "Drill D5.5 (Cell-7)",
+      "expressions": {
+        "tool_bodyLength": "30 mm",
+        "tool_comment": "'Drill D5.5 (Cell-7)'",
+        "tool_description": "'Drill D5.5 (Cell-7)'",
+        "tool_diameter": "5.5 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "28 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "18",
+        "tool_overallLength": "72 mm",
+        "tool_productId": "'BB HSS-PM Twist Dril'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs'",
+        "tool_shaftDiameter": "5.5 mm",
+        "tool_shoulderLength": "28 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 5.5,
+        "HAND": true,
+        "LB": 30,
+        "LCF": 28,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 72,
+        "RE": 0,
+        "SFDM": 5.5,
+        "SIG": 118,
+        "TP": 0,
+        "assemblyGaugeLength": 30,
+        "shoulder-length": 28,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "44ea51c3-482c-4a43-91d9-e082e495b28d",
+      "post-process": {
+        "break-control": false,
+        "comment": "Drill D5.5 (Cell-7)",
+        "diameter-offset": 18,
+        "length-offset": 18,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 18,
+        "turret": 0
+      },
+      "product-id": "BB HSS-PM Twist Dril",
+      "product-link": "https://www.aliexpress.com/item/1005006229173500.html?spm=a2g0o.order_list.order_list_main.5.21ef1802jJeMRs",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 1",
+            "expressions": {
+              "tool_feedPlunge": "200 mmpm",
+              "tool_spindleSpeed": "5000 rpm"
+            },
+            "f_z": 0,
+            "guid": "17c77748-db90-472b-aadf-458b75696c3c",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 5000,
+            "name": "Default preset",
+            "tool-coolant": "flood",
+            "use-feed-per-revolution": false,
+            "v_c": 86.39379797371932,
+            "v_f": 0,
+            "v_f_leadIn": 0,
+            "v_f_leadOut": 0,
+            "v_f_plunge": 200,
+            "v_f_ramp": 0,
+            "v_f_retract": 1000,
+            "v_f_transition": 0
+          }
+        ]
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "generic",
+      "description": "Drill D6.8 (Cell-11)",
+      "expressions": {
+        "tool_bodyLength": "50 mm",
+        "tool_comment": "'Drill D6.8 (Cell-11)'",
+        "tool_description": "'Drill D6.8 (Cell-11)'",
+        "tool_diameter": "(6,8) mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "50 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "17",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000081280365.html?spm=a2g0o.order_list.order_list_main.1200.7e7f18027waqaN'",
+        "tool_shoulderLength": "50 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 6.8,
+        "HAND": true,
+        "LB": 50,
+        "LCF": 50,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 130,
+        "RE": 0,
+        "SFDM": 6.8,
+        "SIG": 118,
+        "TP": 0,
+        "assemblyGaugeLength": 50,
+        "shoulder-length": 50,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "79f81dc6-0967-4231-847f-4b18d70f90b7",
+      "post-process": {
+        "break-control": false,
+        "comment": "Drill D6.8 (Cell-11)",
+        "diameter-offset": 17,
+        "length-offset": 17,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 17,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/4000081280365.html?spm=a2g0o.order_list.order_list_main.1200.7e7f18027waqaN",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 2",
+            "expressions": {
+              "tool_feedPlunge": "300 mmpm",
+              "tool_spindleSpeed": "3000 rpm"
+            },
+            "f_z": 0,
+            "guid": "51a77d21-e855-46b2-a86d-9fd6b420da9e",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 3000,
+            "name": "Default preset",
+            "tool-coolant": "flood",
+            "use-feed-per-revolution": false,
+            "v_c": 64.08849013323179,
+            "v_f": 0,
+            "v_f_leadIn": 0,
+            "v_f_leadOut": 0,
+            "v_f_plunge": 300,
+            "v_f_ramp": 0,
+            "v_f_retract": 1000,
+            "v_f_transition": 0
+          }
+        ]
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "Chamfer-D6 (Cell-26)",
+      "expressions": {
+        "tool_bodyLength": "20 mm",
+        "tool_comment": "'Chamfer-D6 (Cell-26)'",
+        "tool_description": "'Chamfer-D6 (Cell-26)'",
+        "tool_diameter": "6 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "6 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "5",
+        "tool_numberOfFlutes": "3",
+        "tool_productId": "'GAMONT HRC65 '",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005005707178558.html?spm=a2g0o.order_list.order_list_main.5.7462180281T59C'",
+        "tool_shaftDiameter": "6 mm",
+        "tool_shoulderLength": "6 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 6,
+        "HAND": true,
+        "LB": 20,
+        "LCF": 6,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 40,
+        "RE": 0,
+        "SFDM": 6,
+        "TA": 45,
+        "TP": 0,
+        "assemblyGaugeLength": 20,
+        "shoulder-diameter": 6,
+        "shoulder-length": 6,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "c266bbc6-049a-4919-baa4-d11de4bcd958",
+      "post-process": {
+        "break-control": false,
+        "comment": "Chamfer-D6 (Cell-26)",
+        "diameter-offset": 5,
+        "length-offset": 5,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 5,
+        "turret": 0
+      },
+      "product-id": "GAMONT HRC65",
+      "product-link": "https://www.aliexpress.com/item/1005005707178558.html?spm=a2g0o.order_list.order_list_main.5.7462180281T59C",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 5",
+            "expressions": {
+              "tool_feedCutting": "1600 mmpm",
+              "tool_feedPlunge": "2000 mmpm",
+              "tool_feedRamp": "1600 mmpm",
+              "tool_spindleSpeed": "13000 rpm"
+            },
+            "f_n": 0.15384615384615385,
+            "f_z": 0.041025641025641026,
+            "guid": "3e18098e-2055-44ea-90ef-6925d79ac9a0",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 13000,
+            "n_ramp": 13000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 245.04422698000388,
+            "v_f": 1600,
+            "v_f_leadIn": 1600,
+            "v_f_leadOut": 1600,
+            "v_f_plunge": 2000,
+            "v_f_ramp": 1600,
+            "v_f_transition": 1600
+          }
+        ]
+      },
+      "type": "chamfer mill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "Chamfer-D6 (Cell-26)",
+      "expressions": {
+        "tool_bodyLength": "20 mm",
+        "tool_comment": "'Chamfer-D6 (Cell-26)'",
+        "tool_description": "'Chamfer-D6 (Cell-26)'",
+        "tool_diameter": "6 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_feedCutting": "1600 mmpm",
+        "tool_feedPlunge": "2000 mmpm",
+        "tool_feedRamp": "1600 mmpm",
+        "tool_fluteLength": "6 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "5",
+        "tool_numberOfFlutes": "3",
+        "tool_productId": "'GAMONT HRC65 '",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005005707178558.html?spm=a2g0o.order_list.order_list_main.5.7462180281T59C'",
+        "tool_shaftDiameter": "6 mm",
+        "tool_shoulderLength": "6 mm",
+        "tool_spindleSpeed": "13000 rpm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 6,
+        "HAND": true,
+        "LB": 20,
+        "LCF": 6,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 40,
+        "RE": 0,
+        "SFDM": 6,
+        "TA": 45,
+        "TP": 0,
+        "assemblyGaugeLength": 20,
+        "shoulder-diameter": 6,
+        "shoulder-length": 6,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "4b00dec8-b77b-4119-951e-a28adcc46bca",
+      "post-process": {
+        "break-control": false,
+        "comment": "Chamfer-D6 (Cell-26)",
+        "diameter-offset": 5,
+        "length-offset": 5,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 5,
+        "turret": 0
+      },
+      "product-id": "GAMONT HRC65",
+      "product-link": "https://www.aliexpress.com/item/1005005707178558.html?spm=a2g0o.order_list.order_list_main.5.7462180281T59C",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 18",
+            "expressions": {
+              "tool_feedCutting": "1600 mmpm",
+              "tool_feedPlunge": "2000 mmpm",
+              "tool_feedRamp": "1600 mmpm",
+              "tool_spindleSpeed": "13000 rpm"
+            },
+            "f_n": 0.15384615384615385,
+            "f_z": 0.041025641025641026,
+            "guid": "73b8d36f-2673-4448-be1f-46ee00665c4d",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 13000,
+            "n_ramp": 13000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 245.04422698000388,
+            "v_f": 1600,
+            "v_f_leadIn": 1600,
+            "v_f_leadOut": 1600,
+            "v_f_plunge": 2000,
+            "v_f_ramp": 1600,
+            "v_f_transition": 1600
+          }
+        ]
+      },
+      "type": "chamfer mill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "carbide",
+      "GRADE": "Mill Generic",
+      "description": "BB 10x10x30x75",
+      "expressions": {
+        "holder_description": "'BT30 - ER16'",
+        "holder_productLink": "'https://www.aliexpress.com/item/1005005569913435.html?spm=a2g0o.productlist.main.39.42b715e9vNKHxy&algo_pvid=96a7cffe-e7bf-4566-b196-11e90425c318&aem_p4p_detail=20241201041553516203366096700002609519&algo_exp_id=96a7cffe-e7bf-4566-b196-11e90425c318-19&pdp_npi=4%40dis%21CAD%2143.04%2122.38%21%21%2130.05%2115.63%21%402101f04d17330553530873683e53fc%2112000033594054397%21sea%21CA%214461114940%21X&curPageLogUid=5sYZfMfrnJty&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=20241201041553516203366096700002609519_5'",
+        "tool_bodyLength": "35 mm",
+        "tool_description": "'BB 10x10x30x75'",
+        "tool_diameter": "10 mm",
+        "tool_diameterOffset": "0",
+        "tool_feedCutting": "1730 mmpm",
+        "tool_feedEntry": "1730 mmpm",
+        "tool_feedPlunge": "1000 mmpm",
+        "tool_feedRamp": "tool_feedCutting",
+        "tool_fluteLength": "30 mm",
+        "tool_lengthOffset": "0",
+        "tool_manualToolChange": "false",
+        "tool_material": "'carbide'",
+        "tool_number": "1",
+        "tool_numberOfFlutes": "3",
+        "tool_overallLength": "75 mm",
+        "tool_productId": "'BB 3 Flute Carbide Milling Cutter Tungsten End Mill'",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000056634619.html?spm=a2g0o.order_list.order_list_main.56.626c1802Imjxbs'",
+        "tool_rampSpindleSpeed": "8000 rpm",
+        "tool_shaftDiameter": "10 mm",
+        "tool_shoulderLength": "30 mm",
+        "tool_spindleSpeed": "8000 rpm",
+        "tool_vendor": "'BC3855'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 10,
+        "HAND": true,
+        "LB": 35,
+        "LCF": 30,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 75,
+        "RE": 0,
+        "SFDM": 10,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 110,
+        "shoulder-diameter": 10,
+        "shoulder-length": 30,
+        "thread-profile-angle": 60,
+        "tip-diameter": 10,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "e6adabd1-7070-4067-ba87-be99883567cb",
+      "holder": {
+        "description": "BT30 - ER16",
+        "gaugeLength": 75,
+        "guid": "25ba5c05-93b8-4763-9c57-55b57a198f51",
+        "product-id": "",
+        "product-link": "",
+        "segments": [
+          {
+            "height": 2,
+            "lower-diameter": 25,
+            "upper-diameter": 28
+          },
+          {
+            "height": 49,
+            "lower-diameter": 28,
+            "upper-diameter": 28
+          },
+          {
+            "height": 3,
+            "lower-diameter": 28,
+            "upper-diameter": 32
+          },
+          {
+            "height": 1,
+            "lower-diameter": 45,
+            "upper-diameter": 46
+          },
+          {
+            "height": 20,
+            "lower-diameter": 46,
+            "upper-diameter": 46
+          }
+        ],
+        "type": "holder",
+        "unit": "millimeters",
+        "vendor": ""
+      },
+      "post-process": {
+        "break-control": false,
+        "comment": "",
+        "diameter-offset": 0,
+        "length-offset": 0,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 1,
+        "turret": 0
+      },
+      "product-id": "BB 3 Flute Carbide Milling Cutter Tungsten End Mill",
+      "product-link": "https://www.aliexpress.com/item/4000056634619.html?spm=a2g0o.order_list.order_list_main.56.626c1802Imjxbs",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 2",
+            "expressions": {
+              "tool_feedCutting": "1730 mmpm",
+              "tool_feedEntry": "1730 mmpm",
+              "tool_feedPlunge": "1000 mmpm",
+              "tool_feedRamp": "tool_feedCutting",
+              "tool_rampSpindleSpeed": "8000 rpm",
+              "tool_spindleSpeed": "8000 rpm"
+            },
+            "f_n": 0.125,
+            "f_z": 0.07208333333333333,
+            "guid": "4713f2f9-d651-43e1-9bb8-c70f7478eeaa",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 8000,
+            "n_ramp": 8000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 251.32741228718345,
+            "v_f": 1730,
+            "v_f_leadIn": 1730,
+            "v_f_leadOut": 1730,
+            "v_f_plunge": 1000,
+            "v_f_ramp": 1730,
+            "v_f_transition": 1730
+          }
+        ]
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "vendor": "BC3855"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "generic",
+      "description": "Drill D8.2 (Cell-12)",
+      "expressions": {
+        "holder_description": "'BT30 - Drill chuck shank'",
+        "holder_productLink": "'https://www.aliexpress.com/item/4000081280365.html?spm=a2g0o.order_list.order_list_main.1200.7e7f18027waqaN'",
+        "tool_bodyLength": "50 mm",
+        "tool_comment": "'Drill D8.2 (Cell-12)'",
+        "tool_description": "'Drill D8.2 (Cell-12)'",
+        "tool_diameter": "8.2 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "50 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "17",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000081280365.html?spm=a2g0o.order_list.order_list_main.1200.7e7f18027waqaN'",
+        "tool_shaftDiameter": "8.2 mm",
+        "tool_shoulderLength": "50 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 8.2,
+        "HAND": true,
+        "LB": 50,
+        "LCF": 50,
+        "NOF": 2,
+        "NT": 1,
+        "OAL": 130,
+        "RE": 0,
+        "SFDM": 8.2,
+        "SIG": 118,
+        "TP": 0,
+        "assemblyGaugeLength": 132.5,
+        "shoulder-length": 50,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "784939da-7709-483d-8871-d0532b207fe3",
+      "holder": {
+        "description": "BT30 - Drill chuck shank",
+        "gaugeLength": 82.5,
+        "guid": "46900665-6048-4144-94e2-8aba1f3f7851",
+        "product-id": "",
+        "product-link": "",
+        "segments": [
+          {
+            "height": 5,
+            "lower-diameter": 9,
+            "upper-diameter": 12
+          },
+          {
+            "height": 13,
+            "lower-diameter": 30,
+            "upper-diameter": 37
+          },
+          {
+            "height": 34.5,
+            "lower-diameter": 37,
+            "upper-diameter": 37
+          },
+          {
+            "height": 9,
+            "lower-diameter": 40,
+            "upper-diameter": 40
+          },
+          {
+            "height": 1,
+            "lower-diameter": 45,
+            "upper-diameter": 46
+          },
+          {
+            "height": 20,
+            "lower-diameter": 46,
+            "upper-diameter": 46
+          }
+        ],
+        "type": "holder",
+        "unit": "millimeters",
+        "vendor": ""
+      },
+      "post-process": {
+        "break-control": false,
+        "comment": "Drill D8.2 (Cell-12)",
+        "diameter-offset": 17,
+        "length-offset": 17,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 17,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/4000081280365.html?spm=a2g0o.order_list.order_list_main.1200.7e7f18027waqaN",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 2",
+            "expressions": {
+              "tool_feedPlunge": "300 mmpm",
+              "tool_spindleSpeed": "3000 rpm"
+            },
+            "f_z": 0,
+            "guid": "a0c10ced-88da-40cb-9acf-fa7c488b0851",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 3000,
+            "name": "Default preset",
+            "tool-coolant": "flood",
+            "use-feed-per-revolution": false,
+            "v_c": 77.2831792783089,
+            "v_f": 0,
+            "v_f_leadIn": 0,
+            "v_f_leadOut": 0,
+            "v_f_plunge": 300,
+            "v_f_ramp": 0,
+            "v_f_retract": 1000,
+            "v_f_transition": 0
+          }
+        ]
+      },
+      "type": "drill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "BAP300R-D25-H12-IN",
+      "expressions": {
+        "tool_bodyLength": "26 mm",
+        "tool_comment": "'BAP300R-D25-H12-IN'",
+        "tool_description": "'BAP300R-D25-H12-IN'",
+        "tool_diameter": "25 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "10 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "7",
+        "tool_numberOfFlutes": "3",
+        "tool_overallLength": "80 mm",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005008105653825.html?spm=a2g0o.order_list.order_list_main.66.2fe21802Qkfb8b'",
+        "tool_shaftDiameter": "12 mm",
+        "tool_shoulderLength": "20 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 25,
+        "DCX": 25,
+        "HAND": true,
+        "LB": 26,
+        "LCF": 10,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 80,
+        "RE": 0,
+        "SFDM": 12,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 26,
+        "shoulder-diameter": 25,
+        "shoulder-length": 20,
+        "thread-profile-angle": 60,
+        "tip-diameter": 25,
+        "tip-length": 0,
+        "tip-offset": 0,
+        "upper-radius": 0
+      },
+      "guid": "a66c6fdb-cffa-40bd-8dbb-a481df0cce1f",
+      "post-process": {
+        "break-control": false,
+        "comment": "BAP300R-D25-H12-IN",
+        "diameter-offset": 7,
+        "length-offset": 7,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 7,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/1005008105653825.html?spm=a2g0o.order_list.order_list_main.66.2fe21802Qkfb8b",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 5",
+            "expressions": {
+              "tool_feedCutting": "1000 mmpm",
+              "tool_feedPlunge": "600 mmpm",
+              "tool_feedRamp": "1000 mmpm",
+              "tool_spindleSpeed": "8000 rpm"
+            },
+            "f_n": 0.075,
+            "f_z": 0.041666666666666664,
+            "guid": "61cda246-83b2-41f4-b462-3df063a371fa",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 8000,
+            "n_ramp": 8000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 628.3185307179585,
+            "v_f": 1000,
+            "v_f_leadIn": 1000,
+            "v_f_leadOut": 1000,
+            "v_f_plunge": 600,
+            "v_f_ramp": 1000,
+            "v_f_transition": 1000
+          }
+        ]
+      },
+      "type": "face mill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "M8x1.25 (Cell 48)",
+      "expressions": {
+        "holder_description": "' BT30-DC8-60L'",
+        "holder_productLink": "'https://www.aliexpress.com/item/1005003340893590.html?spm=a2g0o.order_list.order_list_main.1492.2cfb18023DkEuu'",
+        "tool_bodyLength": "30 mm",
+        "tool_comment": "'M8x1.25 (Cell 48)'",
+        "tool_description": "'M8x1.25 (Cell 48)'",
+        "tool_diameter": "6 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_feedCutting": "600 mmpm",
+        "tool_feedPlunge": "600 mmpm",
+        "tool_feedRamp": "600 mmpm",
+        "tool_fluteLength": "18 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "16",
+        "tool_numberOfFlutes": "4",
+        "tool_numberOfTeeth": "3",
+        "tool_overallLength": "61 mm",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000785295701.html?spm=a2g0o.productlist.main.3.13b67e4dwiixOR&algo_pvid=0d7d3a00-067b-43a4-9f69-b38e0a1c822c&algo_exp_id=0d7d3a00-067b-43a4-9f69-b38e0a1c822c-1&pdp_ext_f=%7B\"order\"%3A\"128\"%2C\"eval\"%3A\"1\"%7D&pdp_npi=4%40dis%21CAD%2121.05%2113.89%21%21%2114.50%219.57%21%402103244617399960934658283eb872%2112000039465674684%21sea%21CA%214461114940%21X&curPageLogUid=8FvfdHIHy4Jz&utparam-url=scene%3Asearch%7Cquery_from%3A'",
+        "tool_shaftDiameter": "6 mm",
+        "tool_shoulderLength": "18 mm",
+        "tool_threadPitch": "1.25 mm",
+        "tool_vendor": "'BB'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 6,
+        "HAND": true,
+        "LB": 30,
+        "LCF": 18,
+        "NOF": 4,
+        "NT": 3,
+        "OAL": 61,
+        "RE": 0,
+        "SFDM": 6,
+        "TA": 0,
+        "TP": 1.25,
+        "TPN": 0,
+        "TPX": 1.25,
+        "assemblyGaugeLength": 92,
+        "shoulder-diameter": 3.834936,
+        "shoulder-length": 18,
+        "thread-profile-angle": 60,
+        "thread-tip-type": "point",
+        "tip-diameter": 6,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "d7f0e4db-9633-4324-a2fa-e024ccde4dd7",
+      "holder": {
+        "description": " BT30-DC8-60L",
+        "gaugeLength": 62,
+        "guid": "4cae4b55-78a1-4be4-87da-cefeeb45a537",
+        "product-id": "",
+        "product-link": "",
+        "segments": [
+          {
+            "height": 38,
+            "lower-diameter": 22,
+            "upper-diameter": 25.5
+          },
+          {
+            "height": 3,
+            "lower-diameter": 28,
+            "upper-diameter": 32
+          },
+          {
+            "height": 1,
+            "lower-diameter": 45,
+            "upper-diameter": 46
+          },
+          {
+            "height": 20,
+            "lower-diameter": 46,
+            "upper-diameter": 46
+          }
+        ],
+        "type": "holder",
+        "unit": "millimeters",
+        "vendor": ""
+      },
+      "post-process": {
+        "break-control": false,
+        "comment": "M8x1.25 (Cell 48)",
+        "diameter-offset": 16,
+        "length-offset": 16,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 16,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/4000785295701.html?spm=a2g0o.productlist.main.3.13b67e4dwiixOR&algo_pvid=0d7d3a00-067b-43a4-9f69-b38e0a1c822c&algo_exp_id=0d7d3a00-067b-43a4-9f69-b38e0a1c822c-1&pdp_ext_f=%7B\"order\"%3A\"128\"%2C\"eval\"%3A\"1\"%7D&pdp_npi=4%40dis%21CAD%2121.05%2113.89%21%21%2114.50%219.57%21%402103244617399960934658283eb872%2112000039465674684%21sea%21CA%214461114940%21X&curPageLogUid=8FvfdHIHy4Jz&utparam-url=scene%3Asearch%7Cquery_from%3A",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 5",
+            "expressions": {
+              "tool_feedCutting": "600 mmpm",
+              "tool_feedPlunge": "600 mmpm",
+              "tool_feedRamp": "600 mmpm"
+            },
+            "f_n": 0.1,
+            "f_z": 0.025,
+            "guid": "f8540e3e-a60d-4c40-a46e-9680104aadce",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 6000,
+            "n_ramp": 6000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 113.09733552923255,
+            "v_f": 600,
+            "v_f_leadIn": 600,
+            "v_f_leadOut": 600,
+            "v_f_plunge": 600,
+            "v_f_ramp": 600,
+            "v_f_transition": 600
+          }
+        ]
+      },
+      "type": "thread mill",
+      "unit": "millimeters",
+      "vendor": "BB"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "M6x1 (Cell 47)",
+      "expressions": {
+        "tool_bodyLength": "20 mm",
+        "tool_comment": "'M6x1 (Cell 47)'",
+        "tool_description": "'M6x1 (Cell 47)'",
+        "tool_diameter": "5 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "15 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_minimumThreadPitch": "1 mm",
+        "tool_number": "12",
+        "tool_numberOfFlutes": "3",
+        "tool_numberOfTeeth": "1",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005008501480382.html?spm=a2g0o.order_list.order_list_main.94.227618026NiJjI'",
+        "tool_shaftDiameter": "5 mm",
+        "tool_shoulderLength": "20 mm",
+        "tool_vendor": "'BB'"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 5,
+        "HAND": true,
+        "LB": 20,
+        "LCF": 15,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 38,
+        "RE": 0,
+        "SFDM": 5,
+        "TA": 0,
+        "TP": 1,
+        "TPN": 1,
+        "TPX": 1,
+        "assemblyGaugeLength": 20,
+        "shoulder-diameter": 3.267949,
+        "shoulder-length": 20,
+        "thread-profile-angle": 60,
+        "thread-tip-type": "point",
+        "tip-diameter": 5,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "a7f384dc-678c-472e-833f-136bd7120206",
+      "post-process": {
+        "break-control": false,
+        "comment": "M6x1 (Cell 47)",
+        "diameter-offset": 12,
+        "length-offset": 12,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 12,
+        "turret": 0
+      },
+      "product-id": "",
+      "product-link": "https://www.aliexpress.com/item/1005008501480382.html?spm=a2g0o.order_list.order_list_main.94.227618026NiJjI",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 3",
+            "expressions": {
+              "tool_feedCutting": "750 mmpm",
+              "tool_feedPlunge": "600 mmpm",
+              "tool_feedRamp": "750 mmpm"
+            },
+            "f_n": 0.1,
+            "f_z": 0.041666666666666664,
+            "guid": "e41619ec-a1d1-4c33-9167-caaee6d63ee2",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 6000,
+            "n_ramp": 6000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 94.2477796076938,
+            "v_f": 750,
+            "v_f_leadIn": 750,
+            "v_f_leadOut": 750,
+            "v_f_plunge": 600,
+            "v_f_ramp": 750,
+            "v_f_transition": 750
+          }
+        ]
+      },
+      "type": "thread mill",
+      "unit": "millimeters",
+      "vendor": "BB"
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "BB 8x8x24 (cell-37)",
+      "expressions": {
+        "tool_bodyLength": "30 mm",
+        "tool_comment": "'BB 8x8x24 (cell-37)'",
+        "tool_description": "'BB 8x8x24 (cell-37)'",
+        "tool_diameterOffset": "3",
+        "tool_fluteLength": "24 mm",
+        "tool_lengthOffset": "3",
+        "tool_number": "3",
+        "tool_numberOfFlutes": "3",
+        "tool_productId": "'BB 8x8x24 (cell-37)'",
+        "tool_productLink": "'https://www.aliexpress.com/item/4000056634619.html?spm=a2g0o.order_list.order_list_main.5.58ec1802JI5YTP'",
+        "tool_shoulderLength": "24 mm",
+        "tool_vendor": "''"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 8,
+        "HAND": true,
+        "LB": 30,
+        "LCF": 24,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 60,
+        "RE": 0,
+        "SFDM": 8,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 30,
+        "shoulder-diameter": 8,
+        "shoulder-length": 24,
+        "thread-profile-angle": 60,
+        "tip-diameter": 8,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "51d525e5-3fde-40da-a287-1156620b4044",
+      "post-process": {
+        "break-control": false,
+        "comment": "BB 8x8x24 (cell-37)",
+        "diameter-offset": 3,
+        "length-offset": 3,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 3,
+        "turret": 0
+      },
+      "product-id": "BB 8x8x24 (cell-37)",
+      "product-link": "https://www.aliexpress.com/item/4000056634619.html?spm=a2g0o.order_list.order_list_main.5.58ec1802JI5YTP",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 3",
+            "expressions": {
+              "tool_coolant": "'mist'",
+              "tool_feedCutting": "3000 mmpm",
+              "tool_feedRamp": "1300 mmpm",
+              "tool_spindleSpeed": "14000 rpm",
+              "tool_stepdown": "8.5 mm",
+              "tool_stepover": "1 mm"
+            },
+            "f_n": 0.08571428571428572,
+            "f_z": 0.07142857142857142,
+            "guid": "b863a168-32ff-4c6b-840f-8e06f797fba3",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 14000,
+            "n_ramp": 14000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "stepdown": 8.5,
+            "stepover": 1,
+            "tool-coolant": "mist",
+            "use-stepdown": true,
+            "use-stepover": true,
+            "v_c": 351.85837720205683,
+            "v_f": 3000,
+            "v_f_leadIn": 3000,
+            "v_f_leadOut": 3000,
+            "v_f_plunge": 1200,
+            "v_f_ramp": 1300,
+            "v_f_transition": 3000
+          }
+        ]
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "4x15(Cell-33)",
+      "expressions": {
+        "tool_bodyLength": "18 mm",
+        "tool_comment": "'4x15(Cell-33)'",
+        "tool_description": "'4x15(Cell-33)'",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "15 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "15",
+        "tool_numberOfFlutes": "1",
+        "tool_productId": "'No-name (good quality)'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005001914354727.html?spm=a2g0o.order_list.order_list_main.147.6e6918022CU1Yg'",
+        "tool_shaftDiameter": "4 mm",
+        "tool_shoulderLength": "15 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 4,
+        "HAND": true,
+        "LB": 18,
+        "LCF": 15,
+        "NOF": 1,
+        "NT": 1,
+        "OAL": 55,
+        "RE": 0,
+        "SFDM": 4,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 18,
+        "shoulder-diameter": 4,
+        "shoulder-length": 15,
+        "thread-profile-angle": 60,
+        "tip-diameter": 4,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "1ec1f5e5-a586-4782-a57f-bf0972d63a1c",
+      "post-process": {
+        "break-control": false,
+        "comment": "4x15(Cell-33)",
+        "diameter-offset": 15,
+        "length-offset": 15,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 15,
+        "turret": 0
+      },
+      "product-id": "No-name (good quality)",
+      "product-link": "https://www.aliexpress.com/item/1005001914354727.html?spm=a2g0o.order_list.order_list_main.147.6e6918022CU1Yg",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 1",
+            "expressions": {
+              "tool_feedCutting": "800 mmpm",
+              "tool_feedPlunge": "200 mmpm",
+              "tool_feedRamp": "800 mmpm",
+              "tool_rampAngle": "5 degrees",
+              "tool_spindleSpeed": "16000 rpm"
+            },
+            "f_n": 0.0125,
+            "f_z": 0.05,
+            "guid": "8d9564f1-014c-4e33-8efb-97ab4e1c2968",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 16000,
+            "n_ramp": 16000,
+            "name": "2D Contour â 2D Contour2",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 201.06192982974676,
+            "v_f": 800,
+            "v_f_leadIn": 800,
+            "v_f_leadOut": 800,
+            "v_f_plunge": 200,
+            "v_f_ramp": 800,
+            "v_f_transition": 800
+          },
+          {
+            "description": "From ops: 3",
+            "expressions": {
+              "tool_feedCutting": "800 mmpm",
+              "tool_feedPlunge": "200 mmpm",
+              "tool_feedRamp": "800 mmpm",
+              "tool_rampAngle": "5 degrees",
+              "tool_spindleSpeed": "16000 rpm"
+            },
+            "f_n": 0.0125,
+            "f_z": 0.05,
+            "guid": "448721a7-b9f1-44f8-9f2c-e25786e052d2",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 16000,
+            "n_ramp": 16000,
+            "name": "2D Contour â 2D Contour8",
+            "ramp-angle": 2,
+            "tool-coolant": "mist",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 201.06192982974676,
+            "v_f": 800,
+            "v_f_leadIn": 800,
+            "v_f_leadOut": 800,
+            "v_f_plunge": 200,
+            "v_f_ramp": 800,
+            "v_f_transition": 800
+          }
+        ]
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "4x12(Cell-33)",
+      "expressions": {
+        "tool_bodyLength": "18 mm",
+        "tool_comment": "'4x12(Cell-33)'",
+        "tool_description": "'4x12(Cell-33)'",
+        "tool_diameterOffset": "tool_number",
+        "tool_fluteLength": "12 mm",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "15",
+        "tool_numberOfFlutes": "1",
+        "tool_productId": "'No-name (good quality)'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005001914354727.html?spm=a2g0o.order_list.order_list_main.147.6e6918022CU1Yg'",
+        "tool_shaftDiameter": "4 mm",
+        "tool_shoulderLength": "12 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 4,
+        "HAND": true,
+        "LB": 18,
+        "LCF": 12,
+        "NOF": 1,
+        "NT": 1,
+        "OAL": 55,
+        "RE": 0,
+        "SFDM": 4,
+        "TA": 0,
+        "TP": 0,
+        "assemblyGaugeLength": 18,
+        "shoulder-diameter": 4,
+        "shoulder-length": 12,
+        "thread-profile-angle": 60,
+        "tip-diameter": 4,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "c488a5f5-6db4-4823-b068-6da67b7b012e",
+      "post-process": {
+        "break-control": false,
+        "comment": "4x12(Cell-33)",
+        "diameter-offset": 15,
+        "length-offset": 15,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 15,
+        "turret": 0
+      },
+      "product-id": "No-name (good quality)",
+      "product-link": "https://www.aliexpress.com/item/1005001914354727.html?spm=a2g0o.order_list.order_list_main.147.6e6918022CU1Yg",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 6",
+            "expressions": {
+              "tool_feedCutting": "800 mmpm",
+              "tool_feedPlunge": "300 mmpm",
+              "tool_feedRamp": "800 mmpm",
+              "tool_rampAngle": "5 degrees",
+              "tool_spindleSpeed": "16000 rpm"
+            },
+            "f_n": 0.01875,
+            "f_z": 0.05,
+            "guid": "be85982c-d501-4926-9678-dc26938556ad",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 16000,
+            "n_ramp": 16000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 201.06192982974676,
+            "v_f": 800,
+            "v_f_leadIn": 800,
+            "v_f_leadOut": 800,
+            "v_f_plunge": 300,
+            "v_f_ramp": 800,
+            "v_f_transition": 800
+          }
+        ]
+      },
+      "type": "flat end mill",
+      "unit": "millimeters",
+      "vendor": ""
+    },
+    {
+      "BMC": "hss",
+      "GRADE": "Mill Generic",
+      "description": "Chamfer-D4 (Cell-25)",
+      "expressions": {
+        "tool_bodyLength": "20 mm",
+        "tool_comment": "'Chamfer-D4 (Cell-25)'",
+        "tool_description": "'Chamfer-D4 (Cell-25)'",
+        "tool_diameter": "4 mm",
+        "tool_diameterOffset": "tool_number",
+        "tool_lengthOffset": "tool_number",
+        "tool_number": "5",
+        "tool_numberOfFlutes": "3",
+        "tool_productId": "'BB BL2060'",
+        "tool_productLink": "'https://www.aliexpress.com/item/1005007793863503.html?spm=a2g0o.order_list.order_list_main.5.53241802m5uEmL'",
+        "tool_shaftDiameter": "4 mm",
+        "tool_shoulderLength": "20 mm"
+      },
+      "geometry": {
+        "CSP": false,
+        "DC": 4,
+        "HAND": true,
+        "LB": 20,
+        "LCF": 16,
+        "NOF": 3,
+        "NT": 1,
+        "OAL": 40,
+        "RE": 0,
+        "SFDM": 4,
+        "TA": 45,
+        "TP": 0,
+        "assemblyGaugeLength": 20,
+        "shoulder-diameter": 4,
+        "shoulder-length": 20,
+        "thread-profile-angle": 60,
+        "tip-diameter": 0,
+        "tip-length": 0,
+        "tip-offset": 0
+      },
+      "guid": "18d80dfb-43c8-4082-b409-adac56650939",
+      "post-process": {
+        "break-control": false,
+        "comment": "Chamfer-D4 (Cell-25)",
+        "diameter-offset": 5,
+        "length-offset": 5,
+        "live": true,
+        "manual-tool-change": false,
+        "number": 5,
+        "turret": 0
+      },
+      "product-id": "BB BL2060",
+      "product-link": "https://www.aliexpress.com/item/1005007793863503.html?spm=a2g0o.order_list.order_list_main.5.53241802m5uEmL",
+      "start-values": {
+        "presets": [
+          {
+            "description": "From ops: 15",
+            "expressions": {
+              "tool_feedCutting": "1200 mmpm",
+              "tool_feedPlunge": "1000 mmpm",
+              "tool_feedRamp": "2000 mmpm",
+              "tool_spindleSpeed": "12000 rpm"
+            },
+            "f_n": 0.08333333333333333,
+            "f_z": 0.03333333333333333,
+            "guid": "cc1f50c2-044c-4d3f-ba57-7643f5a047db",
+            "material": {
+              "category": "all",
+              "query": "",
+              "use-hardness": false
+            },
+            "n": 12000,
+            "n_ramp": 12000,
+            "name": "Default preset",
+            "ramp-angle": 2,
+            "tool-coolant": "flood",
+            "use-stepdown": false,
+            "use-stepover": false,
+            "v_c": 150.79644737231007,
+            "v_f": 1200,
+            "v_f_leadIn": 1200,
+            "v_f_leadOut": 1200,
+            "v_f_plunge": 1000,
+            "v_f_ramp": 2000,
+            "v_f_transition": 1200
+          }
+        ]
+      },
+      "type": "chamfer mill",
+      "unit": "millimeters",
+      "vendor": ""
+    }
+  ],
+  "version": 36
+}
