@@ -10,7 +10,7 @@ Fusion 360 operation templates and tool libraries for CNC machines.
 | 05/2026 | `Templates_AP4060_05132026.zip` | Operation templates (validated on AP4060, EN/FR/RU descriptions) |
 | 03/2026 | `Template_AP4060_032026.zip` | Operation templates |
 | 12/2025 | `Operation_templates.zip` | Operation templates |
-| — | `AP4060_new.tools` | Fusion 360 tool library — 42 tools with cutting data (multiple presets per tool where different cutting modes apply), validated on AP4060 |
+| 05/2026 | `AP4060_new.tools` | Fusion 360 tool library — 42 tools with cutting data (multiple presets per tool where different cutting modes apply), validated on AP4060 |
 
 ### CNC_T800
 | Date | File | Description |
